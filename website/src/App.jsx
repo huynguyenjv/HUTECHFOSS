@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Suspense, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import loadable from "@loadable/component";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AuthLayout from "./shared/layouts/AuthLayout";
+import BasicLayout from "./shared/layouts/BasicLayout";
+import ContentLayout from "./shared/layouts/ContentLayout";
+import { CircularProgress } from "@mui/material";
+
+const Home = loadable(() => import("~/features/Home"));
+const Login = loadable(() => import("~/features/Login"));
+const Centers = loadable(() => import("~/features/Centers"));
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route element={<AuthLayout />}></Route>
+                <Route element={<BasicLayout />}>
+                    <Route
+                        index
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <Home title="Trang chủ" />
+                            </Suspense>
+                        }
+                    />
+                </Route>
+                <Route element={<ContentLayout />}>
+                    <Route
+                        path="/dang-nhap"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <Login title="Đăng nhập" />
+                            </Suspense>
+                        }
+                    />
+                    <Route
+                        path="/trung-tam-cuu-tro"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <Centers title="Trung Tâm Cứu Trợ" />
+                            </Suspense>
+                        }
+                    />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;
