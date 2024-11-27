@@ -1,0 +1,286 @@
+{
+  "name": "Send SMS",
+  "nodes": [
+    {
+      "parameters": {
+        "from": "0834250103",
+        "to": "0834250103",
+        "message": "=Hiện tại, bão đang tiến gần đến khu vực . Dự kiến bão sẽ đổ bộ vào {$time}. Đề nghị người dân: \n  1. Di chuyển đến nơi trú ẩn an toàn \n  2. Dự trữ nhu yếu phẩm cần thiết\n  3. Cập nhật thông tin từ cơ quan chức năng.\nTruy cập ứng dụng V-Relief để theo dõi diễn biến bão và tìm kiếm trung tâm cứu trợ gần nhất.\nHãy giữu an toàn cho bạn và gia đình!",
+        "options": {}
+      },
+      "id": "7dd2cb5c-ac65-4e74-b8ed-70dfd3b0ef9b",
+      "name": "Twilio",
+      "type": "n8n-nodes-base.twilio",
+      "typeVersion": 1,
+      "position": [
+        1340,
+        360
+      ],
+      "credentials": {
+        "twilioApi": {
+          "id": "qe0Evx5JDtwZVjqK",
+          "name": "Twilio account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "f7b1359c-061f-4bf5-9f21-3db80640ec5f",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        1160,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "annotation",
+              "value": "Đã gửi thông báo tới người dân thành công !"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "dfda06e0-2a71-44d0-b82f-3514f801bb72",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1740,
+        440
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "115fd5f0-5049-4d7e-94fb-077998fe3deb",
+      "name": "GET PHONE NUMBER",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        880,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "b00bafa4-f18a-42ac-beee-2e21cf05c69e",
+      "name": "Loop Over Items1",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        1160,
+        640
+      ]
+    },
+    {
+      "parameters": {
+        "subject": "Thông báo khẩn cấp !",
+        "message": "=Kính gửi Quý cư dân,\n\nTheo thông tin từ Trung tâm Dự báo Khí tượng Thủy văn, bão [tên bão] đang tiến gần khu vực [địa điểm]. Dự kiến bão sẽ đổ bộ vào [thời gian cụ thể] với sức gió mạnh và mưa lớn trên diện rộng.\n\nKhuyến cáo khẩn cấp:\n\nDi chuyển đến nơi an toàn: Ưu tiên các khu vực trú ẩn do chính quyền chỉ định.\nChuẩn bị nhu yếu phẩm: Nước uống, lương thực, thuốc men và đèn pin.\nCập nhật thông tin liên tục: Theo dõi các thông báo từ cơ quan chức năng qua V-Relief và các kênh thông tin chính thống.\nTránh ra ngoài khi bão đổ bộ: Đảm bảo an toàn cho bản thân và gia đình.\nHỗ trợ khẩn cấp:\n\nTruy cập V-Relief để biết thông tin chi tiết về các trung tâm cứu trợ gần nhất.\nGọi [số điện thoại khẩn cấp] trong trường hợp cần giúp đỡ.\nChúng tôi mong nhận được sự hợp tác của tất cả cư dân để đảm bảo an toàn cho cộng đồng.\n\nBan quản lý khẩn cấp V-Relief",
+        "options": {}
+      },
+      "id": "6cf7f141-243a-42d4-9d18-2be3bd8653da",
+      "name": "Gmail",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1400,
+        720
+      ],
+      "webhookId": "b4317cbe-3784-404c-85cf-d04219f8e2cf"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "007b1200-3fbc-4543-90a8-801aa4b8a96a",
+      "name": "GET EMAIL",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        880,
+        640
+      ]
+    },
+    {
+      "parameters": {
+        "path": "36dfdf8c-6823-48dc-82f9-16617cb6c3fe",
+        "options": {}
+      },
+      "id": "fe6d3ee1-f591-42a4-b14c-8de59f0efa08",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        400,
+        240
+      ],
+      "webhookId": "36dfdf8c-6823-48dc-82f9-16617cb6c3fe"
+    },
+    {
+      "parameters": {
+        "from": "+16812361336",
+        "to": "+84834250103",
+        "message": "=Hiện tại, bão đang tiến gần đến khu vực . Dự kiến bão sẽ đổ bộ vào {$time}. Đề nghị người dân: \n  1. Di chuyển đến nơi trú ẩn an toàn \n  2. Dự trữ nhu yếu phẩm cần thiết\n  3. Cập nhật thông tin từ cơ quan chức năng.\nTruy cập ứng dụng V-Relief để theo dõi diễn biến bão và tìm kiếm trung tâm cứu trợ gần nhất.\nHãy giữu an toàn cho bạn và gia đình!",
+        "options": {}
+      },
+      "id": "0740775f-aea8-4454-b25e-0ed91b53a94c",
+      "name": "Twilio1",
+      "type": "n8n-nodes-base.twilio",
+      "typeVersion": 1,
+      "position": [
+        1440,
+        -20
+      ],
+      "credentials": {
+        "twilioApi": {
+          "id": "qe0Evx5JDtwZVjqK",
+          "name": "Twilio account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "36ae7241-332f-4169-9747-52ca7e5c406f",
+      "name": "When clicking ‘Test workflow’",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        1180,
+        -20
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Twilio",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Twilio": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET PHONE NUMBER": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET EMAIL": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "GET PHONE NUMBER",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "GET EMAIL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Twilio1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "bbd3f40a-9fa6-4d15-938a-841050e60a5e",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"
+  },
+  "id": "RaRgg5k26imntdj9",
+  "tags": []
+}

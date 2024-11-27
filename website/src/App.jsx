@@ -7,10 +7,13 @@ import AuthLayout from "./shared/layouts/AuthLayout";
 import BasicLayout from "./shared/layouts/BasicLayout";
 import ContentLayout from "./shared/layouts/ContentLayout";
 import { CircularProgress } from "@mui/material";
+import NoLayout from "./shared/layouts/NoLayout";
 
 const Home = loadable(() => import("~/features/Home"));
 const Login = loadable(() => import("~/features/Login"));
 const Centers = loadable(() => import("~/features/Centers"));
+const HelperForm = loadable(() => import("~/features/HelperForm"));
+const Windy = loadable(() => import("~/features/Windy"));
 
 function App() {
     useEffect(() => {
@@ -48,7 +51,32 @@ function App() {
                             </Suspense>
                         }
                     />
+                    <Route
+                        path="/dang-ky-cuu-tro"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <HelperForm title="Đăng Ký Cứu Trợ" />
+                            </Suspense>
+                        }
+                    />
+                    <Route
+                        path="/dang-ky-cuu-tro"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <HelperForm title="Đăng Ký Cứu Trợ" />
+                            </Suspense>
+                        }
+                    />
+                    <Route
+                        path="/theo-doi-bao"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <Windy title="Windy" />
+                            </Suspense>
+                        }
+                    />
                 </Route>
+                <Route element={<NoLayout />}></Route>
             </Routes>
         </BrowserRouter>
     );

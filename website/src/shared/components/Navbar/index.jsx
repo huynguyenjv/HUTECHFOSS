@@ -28,7 +28,7 @@ export default function Navbar() {
                     Tra Cứu
                 </button>
                 <button
-                    onClick={() => navigate("/van-ban-quy-pham-phap-luat")}
+                    onClick={() => navigate("/theo-doi-bao")}
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
                 >
                     Theo Dõi Bão
@@ -41,7 +41,7 @@ export default function Navbar() {
                 </button>
                 <button
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
-                    onClick={() => navigate("/chatbot")}
+                    onClick={() => navigate("/dang-ky-cuu-tro")}
                 >
                     Đăng Ký Cứu Trợ
                 </button>

@@ -1,4 +1,4 @@
-package vnlaw.service.customerservice.config.messages;
+package olp.hutechfoss.provideservice.config.messages;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
