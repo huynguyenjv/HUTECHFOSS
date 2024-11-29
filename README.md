@@ -188,13 +188,13 @@ You can download the dataset from the following link:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/foxminchan/LawKnowledge
+git clone https://github.com/huynguyenjv/V-RELIEF
 ```
 
 Next, navigate to the root directory of the project and install the dependencies:
 
 ```bash
-pnpm install --force
+npm install --force
 ```
 
 ## 🚀 Running
@@ -202,7 +202,7 @@ pnpm install --force
 For the website, you can run the following command:
 
 ```bash
-npx nx serve website --prod
+npm run dev
 ```
 
 For the API, you can run the following command:
@@ -365,7 +365,7 @@ Help us keep Law Knowledge open and inclusive. Please read and follow our [Code 
 		<img loading="lazy" src="./assets/images/vfossa.png" height="60px" alt="Hutech">
 	</a>
 	<a href="http://husc.hueuni.edu.vn/" target="_blank">
-		<img loading="lazy" src="./assets/images/husc.jpg" height="60px" alt="Husc">
+		<img loading="lazy" src="./assets/images/Haui.png" height="60px" alt="Husc">
 	</a>
 	<a href="https://olp.husc.edu.vn/" target="_blank">
 		<img loading="lazy" src="./assets/images/icpc.jpg" height="60px" alt="ICPC">
@@ -376,7 +376,7 @@ Help us keep Law Knowledge open and inclusive. Please read and follow our [Code 
 
 <p align="justify">
 
-This project is licensed under the terms of the [MIT](LICENSE) license.
+This project is licensed under the terms of the [GNU](LICENSE) license.
 
 </p>
 
