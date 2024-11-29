@@ -1,20 +1,16 @@
 <p align="center">
-	<img loading="lazy" src="./assets/images/law.png" alt="Law Knowledge" height="150">
+	<img loading="lazy" src="./assets/images/V-RELIEF-Logo.png" alt="V-RELIEF" height="150">
 </p>
 
-<h1 align="center">HUTECHFOSS</h1>
-
-<p align="center">
-  APPLICATION FOR EMERGENCY ASSISTANCE AND SUPPLY OF NEEDS AFTER A DISASTER
-<p>
-
+<h1 align="center">V-RELIEF</h1>
+<P align=center>VIETNAM DISASTER RELIEF SYSTEM</P>
 <p align="center">
   <a href="https://foxminchan.github.io/LawKnowledge/" rel="dofollow" target="blank"><strong>Explore the docs »</strong></a>
 	<br/>
 	<br/>
-	<a href="https://github.com/foxminchan/LawKnowledge/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">🐛 Report Bug</a>
+	<a href="https://github.com/huynguyenjv/V-RELIEF/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">🐛 Report Bug</a>
 	|
-	<a href="https://github.com/foxminchan/LawKnowledge/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=%F0%9F%9A%80+Feature%3A+">✈️ Request Feature</a>
+	<a href="https://github.com/huynguyenjv/V-RELIEF/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">✈️ Request Feature</a>
 	|
 	<a href="https://t.me/+bz74heXQgBwwOWRl">💬 Join Our Telegram</a>
 	|
@@ -24,11 +20,11 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/foxminchan/LawKnowledge/issues" target="blank">
-		<img loading="lazy" src="https://img.shields.io/github/issues/foxminchan/LawKnowledge?label=Issue" alt="LawKnowledge issues"/>
+	<a href="https://github.com/huynguyenjv/V-RELIEF/issues" target="blank">
+		<img loading="lazy" src="https://img.shields.io/github/issues/foxminchan/LawKnowledge?label=Issue" alt="V-RELIEF issues"/>
 	</a>
-	<a href="https://github.com/foxminchan/LawKnowledge/blob/main/LICENSE" target="blank">
-		<img loading="lazy" src="https://img.shields.io/github/license/foxminchan/LawKnowledge?label=License" alt="LawKnowledge license"/>
+	<a href="https://github.com/huynguyenjv/V-RELIEF/blob/main/LICENSE" target="blank">
+		<img loading="lazy" src="https://img.shields.io/github/license/foxminchan/LawKnowledge?label=License" alt="V-RELIEF license"/>
 	</a>
 	<a href="https://colab.research.google.com/drive/1HcL3VrdKhQ1f4ZxbYOhiw_kYTtxRlT_f?usp=sharing" target="_blank">
 		<img loading="lazy" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab">
@@ -41,7 +37,7 @@
 	</a>
 </p>
 
-<img loading="lazy" src="./assets/images/banner.gif" alt="Preview" width="100%">
+<img loading="lazy" src="./assets/images/banner.png" alt="Preview" width="100%">
 
 <br/>
 
@@ -74,14 +70,13 @@
 <details>
 <summary>Expand contents</summary>
 
-- [What is Law Knowledge?](#what-is-law-knowledge)
+- [What is V-RELIEF?](#what-is-v-relief)
 - [Tentative technologies](#tentative-technologies)
 - [Building blocks](#building-blocks)
 - [Getting Started](#getting-started)
 	- [🛠️ Prerequisites](#️-prerequisites)
 		- [Infrastucture](#infrastucture)
 		- [Services](#services)
-	- [😄 HuggingFace Resources](#-huggingface-resources)
 	- [🧑‍💻 Setup](#-setup)
 	- [🚀 Running](#-running)
 	- [🧪 Testing](#-testing)
@@ -97,17 +92,17 @@
 
 </details>
 
-# What is Law Knowledge?
+# What is V-RELIEF?
 
 <p align="justify">
-Law Knowledge is an app designed to provide quick access to Vietnam's legal information, including laws and legal documents. It's ideal for professionals, students, or anyone needing insights into Vietnamese legal codes and regulations.
+V-Relief is an innovative emergency response and disaster recovery platform designed to support communities in Vietnam during and after natural disasters such as storms and floods. The platform integrates real-time disaster tracking, utilizing tools like Windy Maps for monitoring and visualizing storm paths, and Goong Maps for pinpointing user locations and nearby relief centers. V-Relief streamlines essential supply distribution, allowing affected individuals to register their needs, while volunteers can offer services like transportation and first aid through an interactive community support map. With n8n automating workflows and notifications, the system efficiently connects those in need with resources and assistance. Additional features, such as damage area lookup, self-rescue knowledge databases, and social media integration, ensure comprehensive support, fostering resilience and coordinated relief efforts across Vietnam.
 </p>
 
 [![Sparkline](https://stars.medv.io/foxminchan/LawKnowledge.svg)](https://stars.medv.io/foxminchan/LawKnowledge)
 
 <blockquote>
 	<p align="justify">
-		<b>Law Knowledge</b> is a legal knowledge search and Q&A application based on Vietnam's Legal Code and legal document database. The application is built on the <b>Microservice Architecture</b> and uses <b>Generative AI</b> to extract legal terms and <b>Question Answering</b> to answer user questions. The application is built with <b>Open Source</b> technologies and is deployed on <b>Cloud</b> platforms.
+		<b>V-Relief</b> is a comprehensive disaster response and recovery application designed for Vietnam, providing critical support during and after natural disasters such as storms and floods. Built on a <b> Microservice Architecture </b>, V-Relief leverages <b>Generative AI </b> to analyze disaster-related data and optimize resource allocation. It features an intelligent <b> Question Answering</b> system  to address user inquiries about relief efforts, emergency procedures, and self-rescue knowledge. Developed using <b>Open Source</b> technologies, the platform ensures transparency and flexibility. Deployed on <b>Cloud</b> infrastructure, V-Relief delivers real-time data processing, seamless scalability, and reliable access for both victims and volunteers, enhancing coordination and resilience across affected communities.
 	</p>
 </blockquote>
 
@@ -118,13 +113,10 @@ If you want to find out more about the contest, please visit the [VFOSSA website
 # Tentative technologies
 
 - [React](https://reactjs.org/)
-- [NestJS](https://nestjs.com/)
 - [Python](https://www.python.org/)
-- [Pulumi](https://www.pulumi.com/)
 - [Kafka](https://kafka.apache.org/)
 - [ArgoCD](https://argoproj.github.io/argo-cd/)
 - [Jenkins](https://www.jenkins.io/)
-- [Kubernetes](https://kubernetes.io/)
 - [OpenTelemetry](https://opentelemetry.io/)
 - [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), [Zipkin](https://zipkin.io/), [Fluentd](https://www.fluentd.org/)
 

@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import WindyWidget from "./components/WindyWidget";
+import { useEffect, useState, useRef } from "react";
 
 export default function Windy() {
     const [coords, setCoords] = useState({ lat: null, lon: null });
+    const windyRef = useRef(null); // Tham chiếu tới div chứa bản đồ
 
     useEffect(() => {
         if (navigator.geolocation) {
@@ -21,7 +21,7 @@ export default function Windy() {
     }, []);
 
     useEffect(() => {
-        if (coords.lat && coords.lon) {
+        if (coords.lat && coords.lon && !windyRef.current) {
             const loadScript = (url, callback) => {
                 const script = document.createElement("script");
                 script.src = url;
@@ -31,18 +31,11 @@ export default function Windy() {
                 document.body.appendChild(script);
             };
 
-            // Tải Leaflet trước
             loadScript("https://unpkg.com/leaflet@1.4.0/dist/leaflet.js", () => {
-                console.log("Leaflet loaded");
-
-                // Sau khi Leaflet tải xong, tải Windy
                 loadScript("https://api.windy.com/assets/map-forecast/libBoot.js", () => {
-                    console.log("Windy loaded");
-
-                    // Đảm bảo Windy và Leaflet đã sẵn sàng
                     if (window.windyInit && window.L) {
                         window.windyInit({
-                            key: "UeD1hfHz9sJXWIl3AUcxMF3WSoqk8kkf",
+                            key: "UeD1hfHz9sJXWll3AUcxMF3WSoqk8kkf",
                             lat: coords.lat,
                             lon: coords.lon,
                             zoom: 8,
@@ -56,11 +49,9 @@ export default function Windy() {
     }, [coords]);
 
     return (
-        // <div id="windy" style={{ width: "100%", height: "500px" }}>
-        //     {!coords.lat && <p>Đang lấy vị trí...</p>}
-        // </div>
         <div>
-            <WindyWidget />
+            {!coords.lat && <p>Đang lấy vị trí...</p>}
+            <div id="windy" style={{ width: "100%", height: "1000px" }} />
         </div>
     );
 }
