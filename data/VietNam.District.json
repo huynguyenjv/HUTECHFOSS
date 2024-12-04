@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf2502c"
+  },
+  "Id": 1,
+  "FullName": "Thành phố trực thuộc trung ương",
+  "FullNameEn": "Municipality",
+  "ShortName": "Thành phố",
+  "ShortNameEn": "City",
+  "CodeName": "thanh_pho_truc_thuoc_trung_uong",
+  "CodeNameEn": "municipality"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf2502d"
+  },
+  "Id": 2,
+  "FullName": "Tỉnh",
+  "FullNameEn": "Province",
+  "ShortName": "Tỉnh",
+  "ShortNameEn": "Province",
+  "CodeName": "tinh",
+  "CodeNameEn": "province"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf2502e"
+  },
+  "Id": 3,
+  "FullName": "Thành phố thuộc thành phố trực thuộc trung ương",
+  "FullNameEn": "Municipal city",
+  "ShortName": "Thành phố",
+  "ShortNameEn": "City",
+  "CodeName": "thanh_pho_thuoc_thanh_pho_truc_thuoc_trung_uong",
+  "CodeNameEn": "municipal_city"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf2502f"
+  },
+  "Id": 4,
+  "FullName": "Thành phố thuộc tỉnh",
+  "FullNameEn": "Provincial city",
+  "ShortName": "Thành phố",
+  "ShortNameEn": "City",
+  "CodeName": "thanh_pho_thuoc_tinh",
+  "CodeNameEn": "provincial_city"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25030"
+  },
+  "Id": 5,
+  "FullName": "Quận",
+  "FullNameEn": "Urban district",
+  "ShortName": "Quận",
+  "ShortNameEn": "District",
+  "CodeName": "quan",
+  "CodeNameEn": "urban_district"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25031"
+  },
+  "Id": 6,
+  "FullName": "Thị xã",
+  "FullNameEn": "District-level town",
+  "ShortName": "Thị xã",
+  "ShortNameEn": "Town",
+  "CodeName": "thi_xa",
+  "CodeNameEn": "district_level_town"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25032"
+  },
+  "Id": 7,
+  "FullName": "Huyện",
+  "FullNameEn": "District",
+  "ShortName": "Huyện",
+  "ShortNameEn": "District",
+  "CodeName": "huyen",
+  "CodeNameEn": "district"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25033"
+  },
+  "Id": 8,
+  "FullName": "Phường",
+  "FullNameEn": "Ward",
+  "ShortName": "Phường",
+  "ShortNameEn": "Ward",
+  "CodeName": "phuong",
+  "CodeNameEn": "ward"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25034"
+  },
+  "Id": 9,
+  "FullName": "Thị trấn",
+  "FullNameEn": "Commune-level town",
+  "ShortName": "Thị trấn",
+  "ShortNameEn": "Township",
+  "CodeName": "thi_tran",
+  "CodeNameEn": "commune_level_town"
+},
+{
+  "_id": {
+    "$oid": "67444a62d836f70b9cf25035"
+  },
+  "Id": 10,
+  "FullName": "Xã",
+  "FullNameEn": "Commune",
+  "ShortName": "Xã",
+  "ShortNameEn": "Commune",
+  "CodeName": "xa",
+  "CodeNameEn": "commune"
+}]
