@@ -1,0 +1,81 @@
+2024-12-01 17:51:07 - INFO - Application started!
+2024-12-01 17:52:41 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-01 17:53:17 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-01 17:53:43 - INFO - Application started!
+2024-12-01 17:53:46 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-01 17:56:09 - INFO - Application started!
+2024-12-01 17:56:13 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-01 17:57:03 - INFO - Application started!
+2024-12-01 17:57:06 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-01 18:01:16 - INFO - Application started!
+2024-12-01 18:01:18 - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2024-12-01 18:01:18 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: The model `gpt-4` does not exist or you do not have access to it.
+2024-12-01 18:02:44 - INFO - Application started!
+2024-12-01 18:02:46 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2024-12-01 18:02:46 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-12-01 18:06:47 - INFO - Application started!
+2024-12-01 18:06:53 - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2024-12-01 18:06:53 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: The model `gpt-4` does not exist or you do not have access to it.
+2024-12-01 18:07:45 - INFO - Application started!
+2024-12-01 18:07:48 - INFO - error_code=model_not_found error_message='The model `gpt-4o` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2024-12-01 18:07:48 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: The model `gpt-4o` does not exist or you do not have access to it.
+2024-12-01 18:08:02 - INFO - error_code=model_not_found error_message='The model `gpt-4o` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2024-12-01 18:08:02 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: The model `gpt-4o` does not exist or you do not have access to it.
+2024-12-01 18:09:39 - INFO - Application started!
+2024-12-01 18:09:41 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2024-12-01 18:09:41 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-12-03 20:24:40 - INFO - Application started!
+2024-12-03 20:25:47 - INFO - error_code=model_not_found error_message='Project `proj_EvtMZvhjzujtaLXt7aWVjvYq` does not have access to model `gpt-4o`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2024-12-03 20:25:47 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: Project `proj_EvtMZvhjzujtaLXt7aWVjvYq` does not have access to model `gpt-4o`
+2024-12-03 20:26:35 - INFO - Application started!
+2024-12-03 20:27:52 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: cannot access local variable 'connection' where it is not associated with a value
+2024-12-03 20:29:07 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: cannot access local variable 'connection' where it is not associated with a value
+2024-12-03 20:34:24 - INFO - Application started!
+2024-12-03 20:34:56 - ERROR - L\u1ed7i khi x\u1eed lý câu h\u1ecfi: 'tuple' object has no attribute 'items'
+2024-12-03 20:37:27 - INFO - Application started!
+2024-12-03 21:21:53 - INFO - Application started!
