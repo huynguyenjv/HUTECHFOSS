@@ -1,0 +1,4686 @@
+[{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8ee"
+  },
+  "RouteID": 1,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 1 thuộc Hà Nội",
+  "Distance": 75.56,
+  "EstimatedTime": "55 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8ef"
+  },
+  "RouteID": 2,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 1 thuộc Hà Nội",
+  "Distance": 17.62,
+  "EstimatedTime": "85 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f0"
+  },
+  "RouteID": 3,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 3 thuộc Hà Nội",
+  "Distance": 23.18,
+  "EstimatedTime": "120 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f1"
+  },
+  "RouteID": 4,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 10 thuộc Hà Nội",
+  "Distance": 86.29,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f2"
+  },
+  "RouteID": 5,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 9 thuộc Hà Nội",
+  "Distance": 21.03,
+  "EstimatedTime": "89 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f3"
+  },
+  "RouteID": 6,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 3 thuộc Hồ Chí Minh",
+  "Distance": 10.64,
+  "EstimatedTime": "93 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f4"
+  },
+  "RouteID": 7,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 7 thuộc Hồ Chí Minh",
+  "Distance": 12.58,
+  "EstimatedTime": "26 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f5"
+  },
+  "RouteID": 8,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 7 thuộc Hồ Chí Minh",
+  "Distance": 8.59,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f6"
+  },
+  "RouteID": 9,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 7 thuộc Hồ Chí Minh",
+  "Distance": 60.29,
+  "EstimatedTime": "117 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f7"
+  },
+  "RouteID": 10,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 7 thuộc Hồ Chí Minh",
+  "Distance": 40.73,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f8"
+  },
+  "RouteID": 11,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 1 thuộc Đà Nẵng",
+  "Distance": 31.99,
+  "EstimatedTime": "106 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8f9"
+  },
+  "RouteID": 12,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 6 thuộc Đà Nẵng",
+  "Distance": 40.26,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8fa"
+  },
+  "RouteID": 13,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 2 thuộc Đà Nẵng",
+  "Distance": 72.03,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8fb"
+  },
+  "RouteID": 14,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 1 thuộc Hải Phòng",
+  "Distance": 73.65,
+  "EstimatedTime": "93 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8fc"
+  },
+  "RouteID": 15,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 4 thuộc Hải Phòng",
+  "Distance": 65.73,
+  "EstimatedTime": "78 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8fd"
+  },
+  "RouteID": 16,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 6 thuộc Hải Phòng",
+  "Distance": 39.32,
+  "EstimatedTime": "118 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8fe"
+  },
+  "RouteID": 17,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 1 thuộc Hải Phòng",
+  "Distance": 24.3,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc8ff"
+  },
+  "RouteID": 18,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 1 thuộc Hải Phòng",
+  "Distance": 36.73,
+  "EstimatedTime": "83 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc900"
+  },
+  "RouteID": 19,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 7 thuộc Cần Thơ",
+  "Distance": 82.92,
+  "EstimatedTime": "67 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc901"
+  },
+  "RouteID": 20,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 9 thuộc Cần Thơ",
+  "Distance": 88.69,
+  "EstimatedTime": "45 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc902"
+  },
+  "RouteID": 21,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 5 thuộc Bắc Ninh",
+  "Distance": 96.95,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc903"
+  },
+  "RouteID": 22,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 9 thuộc Bắc Ninh",
+  "Distance": 73.18,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc904"
+  },
+  "RouteID": 23,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 2 thuộc Bắc Giang",
+  "Distance": 18.92,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc905"
+  },
+  "RouteID": 24,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 1 thuộc Bắc Giang",
+  "Distance": 13.99,
+  "EstimatedTime": "19 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc906"
+  },
+  "RouteID": 25,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 7 thuộc Bắc Giang",
+  "Distance": 17.2,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc907"
+  },
+  "RouteID": 26,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 10 thuộc Bắc Giang",
+  "Distance": 6.37,
+  "EstimatedTime": "82 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc908"
+  },
+  "RouteID": 27,
+  "StartLocation": "Trung tâm cứu trợ Hà Nam",
+  "EndLocation": "Huyện 4 thuộc Hà Nam",
+  "Distance": 33.53,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc909"
+  },
+  "RouteID": 28,
+  "StartLocation": "Trung tâm cứu trợ Hà Nam",
+  "EndLocation": "Huyện 4 thuộc Hà Nam",
+  "Distance": 30.08,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90a"
+  },
+  "RouteID": 29,
+  "StartLocation": "Trung tâm cứu trợ Hà Nam",
+  "EndLocation": "Huyện 5 thuộc Hà Nam",
+  "Distance": 43.72,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90b"
+  },
+  "RouteID": 30,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 7 thuộc Nam Định",
+  "Distance": 73.43,
+  "EstimatedTime": "26 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90c"
+  },
+  "RouteID": 31,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 5 thuộc Nam Định",
+  "Distance": 30.57,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90d"
+  },
+  "RouteID": 32,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 4 thuộc Ninh Bình",
+  "Distance": 50.16,
+  "EstimatedTime": "43 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90e"
+  },
+  "RouteID": 33,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 9 thuộc Ninh Bình",
+  "Distance": 35.69,
+  "EstimatedTime": "98 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc90f"
+  },
+  "RouteID": 34,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 3 thuộc Ninh Bình",
+  "Distance": 48.18,
+  "EstimatedTime": "93 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc910"
+  },
+  "RouteID": 35,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 9 thuộc Ninh Bình",
+  "Distance": 88.35,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc911"
+  },
+  "RouteID": 36,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 7 thuộc Ninh Bình",
+  "Distance": 70.59,
+  "EstimatedTime": "45 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc912"
+  },
+  "RouteID": 37,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 7 thuộc Thanh Hóa",
+  "Distance": 44.45,
+  "EstimatedTime": "86 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc913"
+  },
+  "RouteID": 38,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 3 thuộc Thanh Hóa",
+  "Distance": 41.65,
+  "EstimatedTime": "68 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc914"
+  },
+  "RouteID": 39,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 6 thuộc Thanh Hóa",
+  "Distance": 93.21,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc915"
+  },
+  "RouteID": 40,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 10 thuộc Thanh Hóa",
+  "Distance": 45.63,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc916"
+  },
+  "RouteID": 41,
+  "StartLocation": "Trung tâm cứu trợ Nghệ An",
+  "EndLocation": "Huyện 10 thuộc Nghệ An",
+  "Distance": 88.02,
+  "EstimatedTime": "18 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc917"
+  },
+  "RouteID": 42,
+  "StartLocation": "Trung tâm cứu trợ Nghệ An",
+  "EndLocation": "Huyện 5 thuộc Nghệ An",
+  "Distance": 19.36,
+  "EstimatedTime": "107 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc918"
+  },
+  "RouteID": 43,
+  "StartLocation": "Trung tâm cứu trợ Nghệ An",
+  "EndLocation": "Huyện 10 thuộc Nghệ An",
+  "Distance": 11.63,
+  "EstimatedTime": "102 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc919"
+  },
+  "RouteID": 44,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 1 thuộc Quảng Bình",
+  "Distance": 52.94,
+  "EstimatedTime": "25 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91a"
+  },
+  "RouteID": 45,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 2 thuộc Quảng Bình",
+  "Distance": 34.24,
+  "EstimatedTime": "87 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91b"
+  },
+  "RouteID": 46,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 4 thuộc Quảng Trị",
+  "Distance": 75.36,
+  "EstimatedTime": "101 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91c"
+  },
+  "RouteID": 47,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 1 thuộc Quảng Trị",
+  "Distance": 36.14,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91d"
+  },
+  "RouteID": 48,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 3 thuộc Quảng Trị",
+  "Distance": 33.45,
+  "EstimatedTime": "96 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91e"
+  },
+  "RouteID": 49,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 2 thuộc Quảng Trị",
+  "Distance": 87.65,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc91f"
+  },
+  "RouteID": 50,
+  "StartLocation": "Trung tâm cứu trợ Huế",
+  "EndLocation": "Huyện 5 thuộc Huế",
+  "Distance": 20.14,
+  "EstimatedTime": "76 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc920"
+  },
+  "RouteID": 51,
+  "StartLocation": "Trung tâm cứu trợ Huế",
+  "EndLocation": "Huyện 2 thuộc Huế",
+  "Distance": 58.02,
+  "EstimatedTime": "41 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc921"
+  },
+  "RouteID": 52,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 2 thuộc Quảng Nam",
+  "Distance": 99.86,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc922"
+  },
+  "RouteID": 53,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 7 thuộc Quảng Nam",
+  "Distance": 83.02,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc923"
+  },
+  "RouteID": 54,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 8 thuộc Quảng Nam",
+  "Distance": 67.99,
+  "EstimatedTime": "43 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc924"
+  },
+  "RouteID": 55,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 6 thuộc Quảng Nam",
+  "Distance": 67.76,
+  "EstimatedTime": "40 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc925"
+  },
+  "RouteID": 56,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 2 thuộc Quảng Ngãi",
+  "Distance": 52.78,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc926"
+  },
+  "RouteID": 57,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 5 thuộc Quảng Ngãi",
+  "Distance": 92.28,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc927"
+  },
+  "RouteID": 58,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 2 thuộc Bình Định",
+  "Distance": 72.28,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc928"
+  },
+  "RouteID": 59,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 10 thuộc Bình Định",
+  "Distance": 64.49,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc929"
+  },
+  "RouteID": 60,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 1 thuộc Bình Định",
+  "Distance": 53.16,
+  "EstimatedTime": "62 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92a"
+  },
+  "RouteID": 61,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 4 thuộc Phú Yên",
+  "Distance": 61.43,
+  "EstimatedTime": "118 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92b"
+  },
+  "RouteID": 62,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 8 thuộc Phú Yên",
+  "Distance": 57.19,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92c"
+  },
+  "RouteID": 63,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 10 thuộc Phú Yên",
+  "Distance": 92.17,
+  "EstimatedTime": "95 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92d"
+  },
+  "RouteID": 64,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 4 thuộc Phú Yên",
+  "Distance": 6.79,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92e"
+  },
+  "RouteID": 65,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 4 thuộc Khánh Hòa",
+  "Distance": 33.05,
+  "EstimatedTime": "19 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc92f"
+  },
+  "RouteID": 66,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 4 thuộc Khánh Hòa",
+  "Distance": 92.72,
+  "EstimatedTime": "57 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc930"
+  },
+  "RouteID": 67,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 2 thuộc Khánh Hòa",
+  "Distance": 51.45,
+  "EstimatedTime": "104 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc931"
+  },
+  "RouteID": 68,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 7 thuộc Khánh Hòa",
+  "Distance": 99.18,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc932"
+  },
+  "RouteID": 69,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 6 thuộc Khánh Hòa",
+  "Distance": 42.73,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc933"
+  },
+  "RouteID": 70,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 10 thuộc Ninh Thuận",
+  "Distance": 98.61,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc934"
+  },
+  "RouteID": 71,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 7 thuộc Ninh Thuận",
+  "Distance": 94.35,
+  "EstimatedTime": "109 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc935"
+  },
+  "RouteID": 72,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 5 thuộc Bình Thuận",
+  "Distance": 85.84,
+  "EstimatedTime": "57 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc936"
+  },
+  "RouteID": 73,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 6 thuộc Bình Thuận",
+  "Distance": 6.65,
+  "EstimatedTime": "72 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc937"
+  },
+  "RouteID": 74,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 5 thuộc Lâm Đồng",
+  "Distance": 56.32,
+  "EstimatedTime": "83 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc938"
+  },
+  "RouteID": 75,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 7 thuộc Lâm Đồng",
+  "Distance": 19.78,
+  "EstimatedTime": "104 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc939"
+  },
+  "RouteID": 76,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 8 thuộc Lâm Đồng",
+  "Distance": 80.94,
+  "EstimatedTime": "25 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93a"
+  },
+  "RouteID": 77,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 9 thuộc Lâm Đồng",
+  "Distance": 31.32,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93b"
+  },
+  "RouteID": 78,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 1 thuộc Lâm Đồng",
+  "Distance": 25.33,
+  "EstimatedTime": "19 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93c"
+  },
+  "RouteID": 79,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 6 thuộc Đắk Lắk",
+  "Distance": 57.03,
+  "EstimatedTime": "90 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93d"
+  },
+  "RouteID": 80,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 5 thuộc Đắk Lắk",
+  "Distance": 50.59,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93e"
+  },
+  "RouteID": 81,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 9 thuộc Đắk Lắk",
+  "Distance": 45.46,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc93f"
+  },
+  "RouteID": 82,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 1 thuộc Đắk Nông",
+  "Distance": 92.76,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc940"
+  },
+  "RouteID": 83,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 7 thuộc Đắk Nông",
+  "Distance": 17.54,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc941"
+  },
+  "RouteID": 84,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 10 thuộc Đắk Nông",
+  "Distance": 25.97,
+  "EstimatedTime": "41 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc942"
+  },
+  "RouteID": 85,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 2 thuộc Gia Lai",
+  "Distance": 71.56,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc943"
+  },
+  "RouteID": 86,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 8 thuộc Gia Lai",
+  "Distance": 61.84,
+  "EstimatedTime": "26 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc944"
+  },
+  "RouteID": 87,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 5 thuộc Gia Lai",
+  "Distance": 33.8,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc945"
+  },
+  "RouteID": 88,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 2 thuộc Kon Tum",
+  "Distance": 77.56,
+  "EstimatedTime": "44 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc946"
+  },
+  "RouteID": 89,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 6 thuộc Kon Tum",
+  "Distance": 22.97,
+  "EstimatedTime": "95 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc947"
+  },
+  "RouteID": 90,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 1 thuộc Kon Tum",
+  "Distance": 11.74,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc948"
+  },
+  "RouteID": 91,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 1 thuộc Kon Tum",
+  "Distance": 11.08,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc949"
+  },
+  "RouteID": 92,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 9 thuộc Kon Tum",
+  "Distance": 60.93,
+  "EstimatedTime": "67 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94a"
+  },
+  "RouteID": 93,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 10 thuộc Bình Dương",
+  "Distance": 36.27,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94b"
+  },
+  "RouteID": 94,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 8 thuộc Bình Dương",
+  "Distance": 84.37,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94c"
+  },
+  "RouteID": 95,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 7 thuộc Bình Dương",
+  "Distance": 30.61,
+  "EstimatedTime": "108 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94d"
+  },
+  "RouteID": 96,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 8 thuộc Bình Dương",
+  "Distance": 82.31,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94e"
+  },
+  "RouteID": 97,
+  "StartLocation": "Trung tâm cứu trợ Đồng Nai",
+  "EndLocation": "Huyện 1 thuộc Đồng Nai",
+  "Distance": 36.12,
+  "EstimatedTime": "77 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc94f"
+  },
+  "RouteID": 98,
+  "StartLocation": "Trung tâm cứu trợ Đồng Nai",
+  "EndLocation": "Huyện 6 thuộc Đồng Nai",
+  "Distance": 24.81,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc950"
+  },
+  "RouteID": 99,
+  "StartLocation": "Trung tâm cứu trợ Đồng Nai",
+  "EndLocation": "Huyện 10 thuộc Đồng Nai",
+  "Distance": 57.65,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc951"
+  },
+  "RouteID": 100,
+  "StartLocation": "Trung tâm cứu trợ Tây Ninh",
+  "EndLocation": "Huyện 9 thuộc Tây Ninh",
+  "Distance": 14.04,
+  "EstimatedTime": "19 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc952"
+  },
+  "RouteID": 101,
+  "StartLocation": "Trung tâm cứu trợ Tây Ninh",
+  "EndLocation": "Huyện 4 thuộc Tây Ninh",
+  "Distance": 87.86,
+  "EstimatedTime": "34 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc953"
+  },
+  "RouteID": 102,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 5 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 32,
+  "EstimatedTime": "101 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc954"
+  },
+  "RouteID": 103,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 4 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 14.87,
+  "EstimatedTime": "110 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc955"
+  },
+  "RouteID": 104,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 4 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 25.57,
+  "EstimatedTime": "68 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc956"
+  },
+  "RouteID": 105,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 6 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 11.6,
+  "EstimatedTime": "55 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc957"
+  },
+  "RouteID": 106,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 6 thuộc Long An",
+  "Distance": 41.19,
+  "EstimatedTime": "86 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc958"
+  },
+  "RouteID": 107,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 2 thuộc Long An",
+  "Distance": 77.22,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc959"
+  },
+  "RouteID": 108,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 1 thuộc Tiền Giang",
+  "Distance": 12.28,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95a"
+  },
+  "RouteID": 109,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 1 thuộc Tiền Giang",
+  "Distance": 35.12,
+  "EstimatedTime": "94 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95b"
+  },
+  "RouteID": 110,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 8 thuộc Tiền Giang",
+  "Distance": 66.91,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95c"
+  },
+  "RouteID": 111,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 1 thuộc Tiền Giang",
+  "Distance": 94.79,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95d"
+  },
+  "RouteID": 112,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 10 thuộc Tiền Giang",
+  "Distance": 42.92,
+  "EstimatedTime": "64 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95e"
+  },
+  "RouteID": 113,
+  "StartLocation": "Trung tâm cứu trợ Bến Tre",
+  "EndLocation": "Huyện 7 thuộc Bến Tre",
+  "Distance": 39.03,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc95f"
+  },
+  "RouteID": 114,
+  "StartLocation": "Trung tâm cứu trợ Bến Tre",
+  "EndLocation": "Huyện 4 thuộc Bến Tre",
+  "Distance": 36.06,
+  "EstimatedTime": "83 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc960"
+  },
+  "RouteID": 115,
+  "StartLocation": "Trung tâm cứu trợ Bến Tre",
+  "EndLocation": "Huyện 5 thuộc Bến Tre",
+  "Distance": 27.8,
+  "EstimatedTime": "93 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc961"
+  },
+  "RouteID": 116,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 7 thuộc Trà Vinh",
+  "Distance": 97.97,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc962"
+  },
+  "RouteID": 117,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 4 thuộc Trà Vinh",
+  "Distance": 33.61,
+  "EstimatedTime": "49 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc963"
+  },
+  "RouteID": 118,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 7 thuộc Trà Vinh",
+  "Distance": 72.91,
+  "EstimatedTime": "24 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc964"
+  },
+  "RouteID": 119,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 4 thuộc Vĩnh Long",
+  "Distance": 68.55,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc965"
+  },
+  "RouteID": 120,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 8 thuộc Vĩnh Long",
+  "Distance": 31.79,
+  "EstimatedTime": "98 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc966"
+  },
+  "RouteID": 121,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 7 thuộc Vĩnh Long",
+  "Distance": 98.58,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc967"
+  },
+  "RouteID": 122,
+  "StartLocation": "Trung tâm cứu trợ Đồng Tháp",
+  "EndLocation": "Huyện 3 thuộc Đồng Tháp",
+  "Distance": 88.82,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc968"
+  },
+  "RouteID": 123,
+  "StartLocation": "Trung tâm cứu trợ Đồng Tháp",
+  "EndLocation": "Huyện 10 thuộc Đồng Tháp",
+  "Distance": 27.34,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc969"
+  },
+  "RouteID": 124,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 8 thuộc An Giang",
+  "Distance": 58.79,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96a"
+  },
+  "RouteID": 125,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 3 thuộc An Giang",
+  "Distance": 95.74,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96b"
+  },
+  "RouteID": 126,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 10 thuộc An Giang",
+  "Distance": 74.05,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96c"
+  },
+  "RouteID": 127,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 7 thuộc An Giang",
+  "Distance": 61.28,
+  "EstimatedTime": "16 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96d"
+  },
+  "RouteID": 128,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 5 thuộc Cà Mau",
+  "Distance": 9.19,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96e"
+  },
+  "RouteID": 129,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 10 thuộc Cà Mau",
+  "Distance": 66.61,
+  "EstimatedTime": "81 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc96f"
+  },
+  "RouteID": 130,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 4 thuộc Cà Mau",
+  "Distance": 80.01,
+  "EstimatedTime": "59 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc970"
+  },
+  "RouteID": 131,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 3 thuộc Cà Mau",
+  "Distance": 59.95,
+  "EstimatedTime": "67 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc971"
+  },
+  "RouteID": 132,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 9 thuộc Cà Mau",
+  "Distance": 60.4,
+  "EstimatedTime": "96 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc972"
+  },
+  "RouteID": 133,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 9 thuộc Sóc Trăng",
+  "Distance": 26.33,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc973"
+  },
+  "RouteID": 134,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 1 thuộc Sóc Trăng",
+  "Distance": 80.27,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc974"
+  },
+  "RouteID": 135,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 3 thuộc Sóc Trăng",
+  "Distance": 51.63,
+  "EstimatedTime": "109 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc975"
+  },
+  "RouteID": 136,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 4 thuộc Sóc Trăng",
+  "Distance": 94.37,
+  "EstimatedTime": "59 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc976"
+  },
+  "RouteID": 137,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 10 thuộc Hậu Giang",
+  "Distance": 88.74,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc977"
+  },
+  "RouteID": 138,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 6 thuộc Hậu Giang",
+  "Distance": 80.13,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc978"
+  },
+  "RouteID": 139,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 5 thuộc Hậu Giang",
+  "Distance": 6.4,
+  "EstimatedTime": "40 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc979"
+  },
+  "RouteID": 140,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 10 thuộc Hậu Giang",
+  "Distance": 26.08,
+  "EstimatedTime": "34 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97a"
+  },
+  "RouteID": 141,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 3 thuộc Hậu Giang",
+  "Distance": 22.6,
+  "EstimatedTime": "21 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97b"
+  },
+  "RouteID": 142,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 8 thuộc Kiên Giang",
+  "Distance": 14.59,
+  "EstimatedTime": "118 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97c"
+  },
+  "RouteID": 143,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 10 thuộc Kiên Giang",
+  "Distance": 78.34,
+  "EstimatedTime": "120 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97d"
+  },
+  "RouteID": 144,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 7 thuộc Kiên Giang",
+  "Distance": 67.17,
+  "EstimatedTime": "86 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97e"
+  },
+  "RouteID": 145,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 5 thuộc Kiên Giang",
+  "Distance": 28.64,
+  "EstimatedTime": "54 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc97f"
+  },
+  "RouteID": 146,
+  "StartLocation": "Trung tâm cứu trợ Bạc Liêu",
+  "EndLocation": "Huyện 3 thuộc Bạc Liêu",
+  "Distance": 51.74,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc980"
+  },
+  "RouteID": 147,
+  "StartLocation": "Trung tâm cứu trợ Bạc Liêu",
+  "EndLocation": "Huyện 1 thuộc Bạc Liêu",
+  "Distance": 65.55,
+  "EstimatedTime": "108 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc981"
+  },
+  "RouteID": 148,
+  "StartLocation": "Trung tâm cứu trợ Lai Châu",
+  "EndLocation": "Huyện 2 thuộc Lai Châu",
+  "Distance": 98.68,
+  "EstimatedTime": "55 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc982"
+  },
+  "RouteID": 149,
+  "StartLocation": "Trung tâm cứu trợ Lai Châu",
+  "EndLocation": "Huyện 9 thuộc Lai Châu",
+  "Distance": 17.67,
+  "EstimatedTime": "59 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc983"
+  },
+  "RouteID": 150,
+  "StartLocation": "Trung tâm cứu trợ Lai Châu",
+  "EndLocation": "Huyện 1 thuộc Lai Châu",
+  "Distance": 27.7,
+  "EstimatedTime": "89 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc984"
+  },
+  "RouteID": 151,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 5 thuộc Điện Biên",
+  "Distance": 30.79,
+  "EstimatedTime": "39 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc985"
+  },
+  "RouteID": 152,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 7 thuộc Điện Biên",
+  "Distance": 60.64,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc986"
+  },
+  "RouteID": 153,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 7 thuộc Điện Biên",
+  "Distance": 7.15,
+  "EstimatedTime": "93 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc987"
+  },
+  "RouteID": 154,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 1 thuộc Sơn La",
+  "Distance": 65.86,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc988"
+  },
+  "RouteID": 155,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 8 thuộc Sơn La",
+  "Distance": 75.98,
+  "EstimatedTime": "72 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc989"
+  },
+  "RouteID": 156,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 10 thuộc Sơn La",
+  "Distance": 40.05,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98a"
+  },
+  "RouteID": 157,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 3 thuộc Sơn La",
+  "Distance": 54.69,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98b"
+  },
+  "RouteID": 158,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 4 thuộc Sơn La",
+  "Distance": 99.32,
+  "EstimatedTime": "119 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98c"
+  },
+  "RouteID": 159,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 8 thuộc Hòa Bình",
+  "Distance": 97.38,
+  "EstimatedTime": "98 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98d"
+  },
+  "RouteID": 160,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 9 thuộc Hòa Bình",
+  "Distance": 72.79,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98e"
+  },
+  "RouteID": 161,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 8 thuộc Hòa Bình",
+  "Distance": 31.13,
+  "EstimatedTime": "77 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc98f"
+  },
+  "RouteID": 162,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 10 thuộc Hòa Bình",
+  "Distance": 52.07,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc990"
+  },
+  "RouteID": 163,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 10 thuộc Hòa Bình",
+  "Distance": 52.6,
+  "EstimatedTime": "106 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc991"
+  },
+  "RouteID": 164,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 1 thuộc Lào Cai",
+  "Distance": 50.09,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc992"
+  },
+  "RouteID": 165,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 6 thuộc Lào Cai",
+  "Distance": 77.78,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc993"
+  },
+  "RouteID": 166,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 3 thuộc Lào Cai",
+  "Distance": 42.21,
+  "EstimatedTime": "83 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc994"
+  },
+  "RouteID": 167,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 3 thuộc Yên Bái",
+  "Distance": 81.47,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc995"
+  },
+  "RouteID": 168,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 3 thuộc Yên Bái",
+  "Distance": 96.5,
+  "EstimatedTime": "27 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc996"
+  },
+  "RouteID": 169,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 5 thuộc Yên Bái",
+  "Distance": 98.61,
+  "EstimatedTime": "49 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc997"
+  },
+  "RouteID": 170,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 3 thuộc Yên Bái",
+  "Distance": 39.82,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc998"
+  },
+  "RouteID": 171,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 1 thuộc Yên Bái",
+  "Distance": 59.1,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc999"
+  },
+  "RouteID": 172,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 4 thuộc Hà Giang",
+  "Distance": 72.9,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99a"
+  },
+  "RouteID": 173,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 2 thuộc Hà Giang",
+  "Distance": 23.89,
+  "EstimatedTime": "109 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99b"
+  },
+  "RouteID": 174,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 2 thuộc Hà Giang",
+  "Distance": 14.48,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99c"
+  },
+  "RouteID": 175,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 4 thuộc Hà Giang",
+  "Distance": 79.62,
+  "EstimatedTime": "31 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99d"
+  },
+  "RouteID": 176,
+  "StartLocation": "Trung tâm cứu trợ Cao Bằng",
+  "EndLocation": "Huyện 7 thuộc Cao Bằng",
+  "Distance": 16.93,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99e"
+  },
+  "RouteID": 177,
+  "StartLocation": "Trung tâm cứu trợ Cao Bằng",
+  "EndLocation": "Huyện 8 thuộc Cao Bằng",
+  "Distance": 13.49,
+  "EstimatedTime": "38 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc99f"
+  },
+  "RouteID": 178,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 6 thuộc Bắc Kạn",
+  "Distance": 25.44,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a0"
+  },
+  "RouteID": 179,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 2 thuộc Bắc Kạn",
+  "Distance": 45.62,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a1"
+  },
+  "RouteID": 180,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 2 thuộc Bắc Kạn",
+  "Distance": 53.82,
+  "EstimatedTime": "92 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a2"
+  },
+  "RouteID": 181,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 3 thuộc Thái Nguyên",
+  "Distance": 94.36,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a3"
+  },
+  "RouteID": 182,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 3 thuộc Thái Nguyên",
+  "Distance": 93.23,
+  "EstimatedTime": "59 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a4"
+  },
+  "RouteID": 183,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 1 thuộc Thái Nguyên",
+  "Distance": 47.17,
+  "EstimatedTime": "59 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a5"
+  },
+  "RouteID": 184,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 1 thuộc Thái Nguyên",
+  "Distance": 15.24,
+  "EstimatedTime": "87 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a6"
+  },
+  "RouteID": 185,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 4 thuộc Thái Nguyên",
+  "Distance": 13.66,
+  "EstimatedTime": "27 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a7"
+  },
+  "RouteID": 186,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 6 thuộc Lạng Sơn",
+  "Distance": 25.84,
+  "EstimatedTime": "112 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a8"
+  },
+  "RouteID": 187,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 2 thuộc Lạng Sơn",
+  "Distance": 15.37,
+  "EstimatedTime": "21 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9a9"
+  },
+  "RouteID": 188,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 3 thuộc Lạng Sơn",
+  "Distance": 15.88,
+  "EstimatedTime": "30 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9aa"
+  },
+  "RouteID": 189,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 1 thuộc Tuyên Quang",
+  "Distance": 57.96,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9ab"
+  },
+  "RouteID": 190,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 5 thuộc Tuyên Quang",
+  "Distance": 49.99,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9ac"
+  },
+  "RouteID": 191,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 8 thuộc Tuyên Quang",
+  "Distance": 8.48,
+  "EstimatedTime": "30 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9ad"
+  },
+  "RouteID": 192,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 4 thuộc Phú Thọ",
+  "Distance": 81.66,
+  "EstimatedTime": "31 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9ae"
+  },
+  "RouteID": 193,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 1 thuộc Phú Thọ",
+  "Distance": 48.03,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9af"
+  },
+  "RouteID": 194,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 6 thuộc Quảng Ninh",
+  "Distance": 66.09,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b0"
+  },
+  "RouteID": 195,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 4 thuộc Quảng Ninh",
+  "Distance": 50.88,
+  "EstimatedTime": "29 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b1"
+  },
+  "RouteID": 196,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 10 thuộc Thái Bình",
+  "Distance": 5.59,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b2"
+  },
+  "RouteID": 197,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 10 thuộc Thái Bình",
+  "Distance": 47.59,
+  "EstimatedTime": "94 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b3"
+  },
+  "RouteID": 198,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 10 thuộc Thái Bình",
+  "Distance": 22.06,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b4"
+  },
+  "RouteID": 199,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 1 thuộc Thái Bình",
+  "Distance": 16.15,
+  "EstimatedTime": "63 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b5"
+  },
+  "RouteID": 200,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 6 thuộc Thái Bình",
+  "Distance": 73.62,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b6"
+  },
+  "RouteID": 201,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 10 thuộc Hưng Yên",
+  "Distance": 88.07,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b7"
+  },
+  "RouteID": 202,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 3 thuộc Hưng Yên",
+  "Distance": 33.25,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b8"
+  },
+  "RouteID": 203,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 4 thuộc Hưng Yên",
+  "Distance": 17.23,
+  "EstimatedTime": "120 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9b9"
+  },
+  "RouteID": 204,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 1 thuộc Hưng Yên",
+  "Distance": 27.91,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9ba"
+  },
+  "RouteID": 205,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 1 thuộc Hưng Yên",
+  "Distance": 84.41,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9bb"
+  },
+  "RouteID": 206,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 5 thuộc Hà Tĩnh",
+  "Distance": 29.76,
+  "EstimatedTime": "17 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9bc"
+  },
+  "RouteID": 207,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 3 thuộc Hà Tĩnh",
+  "Distance": 29.95,
+  "EstimatedTime": "98 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9bd"
+  },
+  "RouteID": 208,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 3 thuộc Hà Tĩnh",
+  "Distance": 85.6,
+  "EstimatedTime": "32 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9be"
+  },
+  "RouteID": 209,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 6 thuộc Vĩnh Phúc",
+  "Distance": 50.96,
+  "EstimatedTime": "81 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "6744725e22437a00d91dc9bf"
+  },
+  "RouteID": 210,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 9 thuộc Vĩnh Phúc",
+  "Distance": 74.65,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c54"
+  },
+  "RouteID": 1,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 10 thuộc Hà Nội",
+  "Distance": 54.43,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c55"
+  },
+  "RouteID": 2,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 9 thuộc Hà Nội",
+  "Distance": 52.36,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c56"
+  },
+  "RouteID": 3,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 1 thuộc Hà Nội",
+  "Distance": 8.08,
+  "EstimatedTime": "86 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c57"
+  },
+  "RouteID": 4,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 6 thuộc Hà Nội",
+  "Distance": 32.64,
+  "EstimatedTime": "117 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c58"
+  },
+  "RouteID": 5,
+  "StartLocation": "Trung tâm cứu trợ Hà Nội",
+  "EndLocation": "Huyện 7 thuộc Hà Nội",
+  "Distance": 30.33,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c59"
+  },
+  "RouteID": 6,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 7 thuộc Hồ Chí Minh",
+  "Distance": 26.14,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5a"
+  },
+  "RouteID": 7,
+  "StartLocation": "Trung tâm cứu trợ Hồ Chí Minh",
+  "EndLocation": "Huyện 9 thuộc Hồ Chí Minh",
+  "Distance": 25.31,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5b"
+  },
+  "RouteID": 8,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 10 thuộc Đà Nẵng",
+  "Distance": 22.69,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5c"
+  },
+  "RouteID": 9,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 1 thuộc Đà Nẵng",
+  "Distance": 41.04,
+  "EstimatedTime": "95 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5d"
+  },
+  "RouteID": 10,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 4 thuộc Đà Nẵng",
+  "Distance": 78.46,
+  "EstimatedTime": "83 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5e"
+  },
+  "RouteID": 11,
+  "StartLocation": "Trung tâm cứu trợ Đà Nẵng",
+  "EndLocation": "Huyện 5 thuộc Đà Nẵng",
+  "Distance": 61.66,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c5f"
+  },
+  "RouteID": 12,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 3 thuộc Hải Phòng",
+  "Distance": 74.47,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c60"
+  },
+  "RouteID": 13,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 9 thuộc Hải Phòng",
+  "Distance": 61.39,
+  "EstimatedTime": "113 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c61"
+  },
+  "RouteID": 14,
+  "StartLocation": "Trung tâm cứu trợ Hải Phòng",
+  "EndLocation": "Huyện 10 thuộc Hải Phòng",
+  "Distance": 14.91,
+  "EstimatedTime": "44 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c62"
+  },
+  "RouteID": 15,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 2 thuộc Cần Thơ",
+  "Distance": 56.58,
+  "EstimatedTime": "104 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c63"
+  },
+  "RouteID": 16,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 2 thuộc Cần Thơ",
+  "Distance": 78.36,
+  "EstimatedTime": "29 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c64"
+  },
+  "RouteID": 17,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 9 thuộc Cần Thơ",
+  "Distance": 89.86,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c65"
+  },
+  "RouteID": 18,
+  "StartLocation": "Trung tâm cứu trợ Cần Thơ",
+  "EndLocation": "Huyện 5 thuộc Cần Thơ",
+  "Distance": 52.97,
+  "EstimatedTime": "119 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c66"
+  },
+  "RouteID": 19,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 4 thuộc Bắc Ninh",
+  "Distance": 35.96,
+  "EstimatedTime": "110 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c67"
+  },
+  "RouteID": 20,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 10 thuộc Bắc Ninh",
+  "Distance": 14.63,
+  "EstimatedTime": "60 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c68"
+  },
+  "RouteID": 21,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 1 thuộc Bắc Ninh",
+  "Distance": 89.76,
+  "EstimatedTime": "109 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c69"
+  },
+  "RouteID": 22,
+  "StartLocation": "Trung tâm cứu trợ Bắc Ninh",
+  "EndLocation": "Huyện 5 thuộc Bắc Ninh",
+  "Distance": 12.3,
+  "EstimatedTime": "100 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6a"
+  },
+  "RouteID": 23,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 10 thuộc Bắc Giang",
+  "Distance": 40.01,
+  "EstimatedTime": "108 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6b"
+  },
+  "RouteID": 24,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 6 thuộc Bắc Giang",
+  "Distance": 60.18,
+  "EstimatedTime": "102 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6c"
+  },
+  "RouteID": 25,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 4 thuộc Bắc Giang",
+  "Distance": 28.8,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6d"
+  },
+  "RouteID": 26,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 4 thuộc Bắc Giang",
+  "Distance": 88.7,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6e"
+  },
+  "RouteID": 27,
+  "StartLocation": "Trung tâm cứu trợ Bắc Giang",
+  "EndLocation": "Huyện 10 thuộc Bắc Giang",
+  "Distance": 88.32,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c6f"
+  },
+  "RouteID": 28,
+  "StartLocation": "Trung tâm cứu trợ Hà Nam",
+  "EndLocation": "Huyện 1 thuộc Hà Nam",
+  "Distance": 88.88,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c70"
+  },
+  "RouteID": 29,
+  "StartLocation": "Trung tâm cứu trợ Hà Nam",
+  "EndLocation": "Huyện 2 thuộc Hà Nam",
+  "Distance": 27.16,
+  "EstimatedTime": "81 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c71"
+  },
+  "RouteID": 30,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 2 thuộc Nam Định",
+  "Distance": 51.89,
+  "EstimatedTime": "30 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c72"
+  },
+  "RouteID": 31,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 5 thuộc Nam Định",
+  "Distance": 86.5,
+  "EstimatedTime": "16 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c73"
+  },
+  "RouteID": 32,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 9 thuộc Nam Định",
+  "Distance": 19.73,
+  "EstimatedTime": "17 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c74"
+  },
+  "RouteID": 33,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 9 thuộc Nam Định",
+  "Distance": 47.27,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c75"
+  },
+  "RouteID": 34,
+  "StartLocation": "Trung tâm cứu trợ Nam Định",
+  "EndLocation": "Huyện 7 thuộc Nam Định",
+  "Distance": 44.75,
+  "EstimatedTime": "33 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c76"
+  },
+  "RouteID": 35,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 9 thuộc Ninh Bình",
+  "Distance": 47.44,
+  "EstimatedTime": "82 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c77"
+  },
+  "RouteID": 36,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 3 thuộc Ninh Bình",
+  "Distance": 37.82,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c78"
+  },
+  "RouteID": 37,
+  "StartLocation": "Trung tâm cứu trợ Ninh Bình",
+  "EndLocation": "Huyện 7 thuộc Ninh Bình",
+  "Distance": 55.37,
+  "EstimatedTime": "79 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c79"
+  },
+  "RouteID": 38,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 6 thuộc Thanh Hóa",
+  "Distance": 17.95,
+  "EstimatedTime": "80 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7a"
+  },
+  "RouteID": 39,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 5 thuộc Thanh Hóa",
+  "Distance": 67.26,
+  "EstimatedTime": "74 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7b"
+  },
+  "RouteID": 40,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 2 thuộc Thanh Hóa",
+  "Distance": 56.97,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7c"
+  },
+  "RouteID": 41,
+  "StartLocation": "Trung tâm cứu trợ Thanh Hóa",
+  "EndLocation": "Huyện 3 thuộc Thanh Hóa",
+  "Distance": 37.52,
+  "EstimatedTime": "110 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7d"
+  },
+  "RouteID": 42,
+  "StartLocation": "Trung tâm cứu trợ Nghệ An",
+  "EndLocation": "Huyện 2 thuộc Nghệ An",
+  "Distance": 65.55,
+  "EstimatedTime": "29 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7e"
+  },
+  "RouteID": 43,
+  "StartLocation": "Trung tâm cứu trợ Nghệ An",
+  "EndLocation": "Huyện 3 thuộc Nghệ An",
+  "Distance": 8.71,
+  "EstimatedTime": "73 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c7f"
+  },
+  "RouteID": 44,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 10 thuộc Quảng Bình",
+  "Distance": 82.36,
+  "EstimatedTime": "41 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c80"
+  },
+  "RouteID": 45,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 5 thuộc Quảng Bình",
+  "Distance": 72,
+  "EstimatedTime": "32 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c81"
+  },
+  "RouteID": 46,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 7 thuộc Quảng Bình",
+  "Distance": 95.59,
+  "EstimatedTime": "106 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c82"
+  },
+  "RouteID": 47,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 9 thuộc Quảng Bình",
+  "Distance": 17.73,
+  "EstimatedTime": "17 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c83"
+  },
+  "RouteID": 48,
+  "StartLocation": "Trung tâm cứu trợ Quảng Bình",
+  "EndLocation": "Huyện 5 thuộc Quảng Bình",
+  "Distance": 76.96,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c84"
+  },
+  "RouteID": 49,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 6 thuộc Quảng Trị",
+  "Distance": 90.48,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c85"
+  },
+  "RouteID": 50,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 8 thuộc Quảng Trị",
+  "Distance": 20.79,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c86"
+  },
+  "RouteID": 51,
+  "StartLocation": "Trung tâm cứu trợ Quảng Trị",
+  "EndLocation": "Huyện 5 thuộc Quảng Trị",
+  "Distance": 74.9,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c87"
+  },
+  "RouteID": 52,
+  "StartLocation": "Trung tâm cứu trợ Huế",
+  "EndLocation": "Huyện 9 thuộc Huế",
+  "Distance": 54.62,
+  "EstimatedTime": "17 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c88"
+  },
+  "RouteID": 53,
+  "StartLocation": "Trung tâm cứu trợ Huế",
+  "EndLocation": "Huyện 7 thuộc Huế",
+  "Distance": 24.83,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c89"
+  },
+  "RouteID": 54,
+  "StartLocation": "Trung tâm cứu trợ Huế",
+  "EndLocation": "Huyện 3 thuộc Huế",
+  "Distance": 10.72,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8a"
+  },
+  "RouteID": 55,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 6 thuộc Quảng Nam",
+  "Distance": 18.78,
+  "EstimatedTime": "97 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8b"
+  },
+  "RouteID": 56,
+  "StartLocation": "Trung tâm cứu trợ Quảng Nam",
+  "EndLocation": "Huyện 5 thuộc Quảng Nam",
+  "Distance": 81.25,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8c"
+  },
+  "RouteID": 57,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 2 thuộc Quảng Ngãi",
+  "Distance": 11.32,
+  "EstimatedTime": "102 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8d"
+  },
+  "RouteID": 58,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 9 thuộc Quảng Ngãi",
+  "Distance": 44.27,
+  "EstimatedTime": "97 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8e"
+  },
+  "RouteID": 59,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 7 thuộc Quảng Ngãi",
+  "Distance": 88.66,
+  "EstimatedTime": "24 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c8f"
+  },
+  "RouteID": 60,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ngãi",
+  "EndLocation": "Huyện 7 thuộc Quảng Ngãi",
+  "Distance": 36.77,
+  "EstimatedTime": "25 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c90"
+  },
+  "RouteID": 61,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 3 thuộc Bình Định",
+  "Distance": 17.07,
+  "EstimatedTime": "67 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c91"
+  },
+  "RouteID": 62,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 6 thuộc Bình Định",
+  "Distance": 47.83,
+  "EstimatedTime": "77 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c92"
+  },
+  "RouteID": 63,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 5 thuộc Bình Định",
+  "Distance": 95.3,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c93"
+  },
+  "RouteID": 64,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 8 thuộc Bình Định",
+  "Distance": 5.32,
+  "EstimatedTime": "87 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c94"
+  },
+  "RouteID": 65,
+  "StartLocation": "Trung tâm cứu trợ Bình Định",
+  "EndLocation": "Huyện 9 thuộc Bình Định",
+  "Distance": 69.01,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c95"
+  },
+  "RouteID": 66,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 2 thuộc Phú Yên",
+  "Distance": 95.33,
+  "EstimatedTime": "48 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c96"
+  },
+  "RouteID": 67,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 5 thuộc Phú Yên",
+  "Distance": 18.07,
+  "EstimatedTime": "92 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c97"
+  },
+  "RouteID": 68,
+  "StartLocation": "Trung tâm cứu trợ Phú Yên",
+  "EndLocation": "Huyện 10 thuộc Phú Yên",
+  "Distance": 61.05,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c98"
+  },
+  "RouteID": 69,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 1 thuộc Khánh Hòa",
+  "Distance": 46.36,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c99"
+  },
+  "RouteID": 70,
+  "StartLocation": "Trung tâm cứu trợ Khánh Hòa",
+  "EndLocation": "Huyện 3 thuộc Khánh Hòa",
+  "Distance": 49.31,
+  "EstimatedTime": "72 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9a"
+  },
+  "RouteID": 71,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 9 thuộc Ninh Thuận",
+  "Distance": 82.97,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9b"
+  },
+  "RouteID": 72,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 6 thuộc Ninh Thuận",
+  "Distance": 94.45,
+  "EstimatedTime": "57 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9c"
+  },
+  "RouteID": 73,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 7 thuộc Ninh Thuận",
+  "Distance": 13.4,
+  "EstimatedTime": "108 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9d"
+  },
+  "RouteID": 74,
+  "StartLocation": "Trung tâm cứu trợ Ninh Thuận",
+  "EndLocation": "Huyện 2 thuộc Ninh Thuận",
+  "Distance": 93.09,
+  "EstimatedTime": "82 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9e"
+  },
+  "RouteID": 75,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 6 thuộc Bình Thuận",
+  "Distance": 60.12,
+  "EstimatedTime": "104 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41c9f"
+  },
+  "RouteID": 76,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 1 thuộc Bình Thuận",
+  "Distance": 18.88,
+  "EstimatedTime": "87 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca0"
+  },
+  "RouteID": 77,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 10 thuộc Bình Thuận",
+  "Distance": 16.42,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca1"
+  },
+  "RouteID": 78,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 6 thuộc Bình Thuận",
+  "Distance": 46.38,
+  "EstimatedTime": "43 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca2"
+  },
+  "RouteID": 79,
+  "StartLocation": "Trung tâm cứu trợ Bình Thuận",
+  "EndLocation": "Huyện 8 thuộc Bình Thuận",
+  "Distance": 88.79,
+  "EstimatedTime": "18 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca3"
+  },
+  "RouteID": 80,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 9 thuộc Lâm Đồng",
+  "Distance": 41.19,
+  "EstimatedTime": "31 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca4"
+  },
+  "RouteID": 81,
+  "StartLocation": "Trung tâm cứu trợ Lâm Đồng",
+  "EndLocation": "Huyện 5 thuộc Lâm Đồng",
+  "Distance": 55.54,
+  "EstimatedTime": "97 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca5"
+  },
+  "RouteID": 82,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 5 thuộc Đắk Lắk",
+  "Distance": 22.13,
+  "EstimatedTime": "112 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca6"
+  },
+  "RouteID": 83,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 5 thuộc Đắk Lắk",
+  "Distance": 83.72,
+  "EstimatedTime": "47 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca7"
+  },
+  "RouteID": 84,
+  "StartLocation": "Trung tâm cứu trợ Đắk Lắk",
+  "EndLocation": "Huyện 3 thuộc Đắk Lắk",
+  "Distance": 46.61,
+  "EstimatedTime": "40 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca8"
+  },
+  "RouteID": 85,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 5 thuộc Đắk Nông",
+  "Distance": 63.2,
+  "EstimatedTime": "45 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ca9"
+  },
+  "RouteID": 86,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 9 thuộc Đắk Nông",
+  "Distance": 54.76,
+  "EstimatedTime": "78 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41caa"
+  },
+  "RouteID": 87,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 10 thuộc Đắk Nông",
+  "Distance": 7.29,
+  "EstimatedTime": "24 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cab"
+  },
+  "RouteID": 88,
+  "StartLocation": "Trung tâm cứu trợ Đắk Nông",
+  "EndLocation": "Huyện 5 thuộc Đắk Nông",
+  "Distance": 21.53,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cac"
+  },
+  "RouteID": 89,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 6 thuộc Gia Lai",
+  "Distance": 76.99,
+  "EstimatedTime": "85 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cad"
+  },
+  "RouteID": 90,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 6 thuộc Gia Lai",
+  "Distance": 52.04,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cae"
+  },
+  "RouteID": 91,
+  "StartLocation": "Trung tâm cứu trợ Gia Lai",
+  "EndLocation": "Huyện 3 thuộc Gia Lai",
+  "Distance": 58.42,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41caf"
+  },
+  "RouteID": 92,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 1 thuộc Kon Tum",
+  "Distance": 13.59,
+  "EstimatedTime": "36 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb0"
+  },
+  "RouteID": 93,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 6 thuộc Kon Tum",
+  "Distance": 81.74,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb1"
+  },
+  "RouteID": 94,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 7 thuộc Kon Tum",
+  "Distance": 17.1,
+  "EstimatedTime": "70 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb2"
+  },
+  "RouteID": 95,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 10 thuộc Kon Tum",
+  "Distance": 54.54,
+  "EstimatedTime": "87 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb3"
+  },
+  "RouteID": 96,
+  "StartLocation": "Trung tâm cứu trợ Kon Tum",
+  "EndLocation": "Huyện 8 thuộc Kon Tum",
+  "Distance": 97.52,
+  "EstimatedTime": "78 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb4"
+  },
+  "RouteID": 97,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 6 thuộc Bình Dương",
+  "Distance": 19.09,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb5"
+  },
+  "RouteID": 98,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 6 thuộc Bình Dương",
+  "Distance": 97.87,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb6"
+  },
+  "RouteID": 99,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 4 thuộc Bình Dương",
+  "Distance": 77.13,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb7"
+  },
+  "RouteID": 100,
+  "StartLocation": "Trung tâm cứu trợ Bình Dương",
+  "EndLocation": "Huyện 7 thuộc Bình Dương",
+  "Distance": 33.91,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb8"
+  },
+  "RouteID": 101,
+  "StartLocation": "Trung tâm cứu trợ Đồng Nai",
+  "EndLocation": "Huyện 6 thuộc Đồng Nai",
+  "Distance": 44.62,
+  "EstimatedTime": "49 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cb9"
+  },
+  "RouteID": 102,
+  "StartLocation": "Trung tâm cứu trợ Đồng Nai",
+  "EndLocation": "Huyện 8 thuộc Đồng Nai",
+  "Distance": 63.96,
+  "EstimatedTime": "49 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cba"
+  },
+  "RouteID": 103,
+  "StartLocation": "Trung tâm cứu trợ Tây Ninh",
+  "EndLocation": "Huyện 1 thuộc Tây Ninh",
+  "Distance": 23.46,
+  "EstimatedTime": "73 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cbb"
+  },
+  "RouteID": 104,
+  "StartLocation": "Trung tâm cứu trợ Tây Ninh",
+  "EndLocation": "Huyện 8 thuộc Tây Ninh",
+  "Distance": 77.44,
+  "EstimatedTime": "52 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cbc"
+  },
+  "RouteID": 105,
+  "StartLocation": "Trung tâm cứu trợ Tây Ninh",
+  "EndLocation": "Huyện 8 thuộc Tây Ninh",
+  "Distance": 99.33,
+  "EstimatedTime": "69 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cbd"
+  },
+  "RouteID": 106,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 4 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 81.02,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cbe"
+  },
+  "RouteID": 107,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 4 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 82.02,
+  "EstimatedTime": "68 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cbf"
+  },
+  "RouteID": 108,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 7 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 98.03,
+  "EstimatedTime": "91 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc0"
+  },
+  "RouteID": 109,
+  "StartLocation": "Trung tâm cứu trợ Bà Rịa - Vũng Tàu",
+  "EndLocation": "Huyện 7 thuộc Bà Rịa - Vũng Tàu",
+  "Distance": 76.3,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc1"
+  },
+  "RouteID": 110,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 8 thuộc Long An",
+  "Distance": 28.88,
+  "EstimatedTime": "67 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc2"
+  },
+  "RouteID": 111,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 9 thuộc Long An",
+  "Distance": 95.87,
+  "EstimatedTime": "48 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc3"
+  },
+  "RouteID": 112,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 10 thuộc Long An",
+  "Distance": 43.15,
+  "EstimatedTime": "95 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc4"
+  },
+  "RouteID": 113,
+  "StartLocation": "Trung tâm cứu trợ Long An",
+  "EndLocation": "Huyện 5 thuộc Long An",
+  "Distance": 74.42,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc5"
+  },
+  "RouteID": 114,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 7 thuộc Tiền Giang",
+  "Distance": 52.23,
+  "EstimatedTime": "72 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc6"
+  },
+  "RouteID": 115,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 6 thuộc Tiền Giang",
+  "Distance": 16.2,
+  "EstimatedTime": "35 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc7"
+  },
+  "RouteID": 116,
+  "StartLocation": "Trung tâm cứu trợ Tiền Giang",
+  "EndLocation": "Huyện 5 thuộc Tiền Giang",
+  "Distance": 84.3,
+  "EstimatedTime": "24 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc8"
+  },
+  "RouteID": 117,
+  "StartLocation": "Trung tâm cứu trợ Bến Tre",
+  "EndLocation": "Huyện 1 thuộc Bến Tre",
+  "Distance": 21.95,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cc9"
+  },
+  "RouteID": 118,
+  "StartLocation": "Trung tâm cứu trợ Bến Tre",
+  "EndLocation": "Huyện 7 thuộc Bến Tre",
+  "Distance": 6.62,
+  "EstimatedTime": "81 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cca"
+  },
+  "RouteID": 119,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 4 thuộc Trà Vinh",
+  "Distance": 67.41,
+  "EstimatedTime": "80 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ccb"
+  },
+  "RouteID": 120,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 1 thuộc Trà Vinh",
+  "Distance": 86.72,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ccc"
+  },
+  "RouteID": 121,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 10 thuộc Trà Vinh",
+  "Distance": 83.42,
+  "EstimatedTime": "21 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ccd"
+  },
+  "RouteID": 122,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 5 thuộc Trà Vinh",
+  "Distance": 61.16,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cce"
+  },
+  "RouteID": 123,
+  "StartLocation": "Trung tâm cứu trợ Trà Vinh",
+  "EndLocation": "Huyện 10 thuộc Trà Vinh",
+  "Distance": 5.23,
+  "EstimatedTime": "57 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ccf"
+  },
+  "RouteID": 124,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 7 thuộc Vĩnh Long",
+  "Distance": 99.89,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd0"
+  },
+  "RouteID": 125,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 3 thuộc Vĩnh Long",
+  "Distance": 90.54,
+  "EstimatedTime": "46 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd1"
+  },
+  "RouteID": 126,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 1 thuộc Vĩnh Long",
+  "Distance": 23.45,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd2"
+  },
+  "RouteID": 127,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Long",
+  "EndLocation": "Huyện 3 thuộc Vĩnh Long",
+  "Distance": 69.77,
+  "EstimatedTime": "101 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd3"
+  },
+  "RouteID": 128,
+  "StartLocation": "Trung tâm cứu trợ Đồng Tháp",
+  "EndLocation": "Huyện 5 thuộc Đồng Tháp",
+  "Distance": 89.46,
+  "EstimatedTime": "50 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd4"
+  },
+  "RouteID": 129,
+  "StartLocation": "Trung tâm cứu trợ Đồng Tháp",
+  "EndLocation": "Huyện 4 thuộc Đồng Tháp",
+  "Distance": 67.27,
+  "EstimatedTime": "43 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd5"
+  },
+  "RouteID": 130,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 9 thuộc An Giang",
+  "Distance": 71.67,
+  "EstimatedTime": "35 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd6"
+  },
+  "RouteID": 131,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 1 thuộc An Giang",
+  "Distance": 5.76,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd7"
+  },
+  "RouteID": 132,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 5 thuộc An Giang",
+  "Distance": 32.54,
+  "EstimatedTime": "20 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd8"
+  },
+  "RouteID": 133,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 9 thuộc An Giang",
+  "Distance": 42.88,
+  "EstimatedTime": "18 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cd9"
+  },
+  "RouteID": 134,
+  "StartLocation": "Trung tâm cứu trợ An Giang",
+  "EndLocation": "Huyện 10 thuộc An Giang",
+  "Distance": 87.69,
+  "EstimatedTime": "22 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cda"
+  },
+  "RouteID": 135,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 9 thuộc Cà Mau",
+  "Distance": 60.17,
+  "EstimatedTime": "95 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cdb"
+  },
+  "RouteID": 136,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 6 thuộc Cà Mau",
+  "Distance": 94.37,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cdc"
+  },
+  "RouteID": 137,
+  "StartLocation": "Trung tâm cứu trợ Cà Mau",
+  "EndLocation": "Huyện 9 thuộc Cà Mau",
+  "Distance": 40.1,
+  "EstimatedTime": "30 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cdd"
+  },
+  "RouteID": 138,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 4 thuộc Sóc Trăng",
+  "Distance": 44.63,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cde"
+  },
+  "RouteID": 139,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 1 thuộc Sóc Trăng",
+  "Distance": 51.22,
+  "EstimatedTime": "48 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cdf"
+  },
+  "RouteID": 140,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 3 thuộc Sóc Trăng",
+  "Distance": 9.49,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce0"
+  },
+  "RouteID": 141,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 7 thuộc Sóc Trăng",
+  "Distance": 86.82,
+  "EstimatedTime": "85 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce1"
+  },
+  "RouteID": 142,
+  "StartLocation": "Trung tâm cứu trợ Sóc Trăng",
+  "EndLocation": "Huyện 6 thuộc Sóc Trăng",
+  "Distance": 6.61,
+  "EstimatedTime": "21 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce2"
+  },
+  "RouteID": 143,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 9 thuộc Hậu Giang",
+  "Distance": 86.25,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce3"
+  },
+  "RouteID": 144,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 7 thuộc Hậu Giang",
+  "Distance": 73.64,
+  "EstimatedTime": "52 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce4"
+  },
+  "RouteID": 145,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 2 thuộc Hậu Giang",
+  "Distance": 93.39,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce5"
+  },
+  "RouteID": 146,
+  "StartLocation": "Trung tâm cứu trợ Hậu Giang",
+  "EndLocation": "Huyện 7 thuộc Hậu Giang",
+  "Distance": 84.35,
+  "EstimatedTime": "79 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce6"
+  },
+  "RouteID": 147,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 3 thuộc Kiên Giang",
+  "Distance": 18.75,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce7"
+  },
+  "RouteID": 148,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 9 thuộc Kiên Giang",
+  "Distance": 61.83,
+  "EstimatedTime": "71 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce8"
+  },
+  "RouteID": 149,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 5 thuộc Kiên Giang",
+  "Distance": 21.51,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ce9"
+  },
+  "RouteID": 150,
+  "StartLocation": "Trung tâm cứu trợ Kiên Giang",
+  "EndLocation": "Huyện 4 thuộc Kiên Giang",
+  "Distance": 17.24,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cea"
+  },
+  "RouteID": 151,
+  "StartLocation": "Trung tâm cứu trợ Bạc Liêu",
+  "EndLocation": "Huyện 8 thuộc Bạc Liêu",
+  "Distance": 87.71,
+  "EstimatedTime": "55 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ceb"
+  },
+  "RouteID": 152,
+  "StartLocation": "Trung tâm cứu trợ Bạc Liêu",
+  "EndLocation": "Huyện 1 thuộc Bạc Liêu",
+  "Distance": 33.47,
+  "EstimatedTime": "118 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cec"
+  },
+  "RouteID": 153,
+  "StartLocation": "Trung tâm cứu trợ Lai Châu",
+  "EndLocation": "Huyện 6 thuộc Lai Châu",
+  "Distance": 39,
+  "EstimatedTime": "110 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41ced"
+  },
+  "RouteID": 154,
+  "StartLocation": "Trung tâm cứu trợ Lai Châu",
+  "EndLocation": "Huyện 8 thuộc Lai Châu",
+  "Distance": 61.77,
+  "EstimatedTime": "94 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cee"
+  },
+  "RouteID": 155,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 10 thuộc Điện Biên",
+  "Distance": 57.81,
+  "EstimatedTime": "80 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cef"
+  },
+  "RouteID": 156,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 5 thuộc Điện Biên",
+  "Distance": 68.34,
+  "EstimatedTime": "94 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf0"
+  },
+  "RouteID": 157,
+  "StartLocation": "Trung tâm cứu trợ Điện Biên",
+  "EndLocation": "Huyện 9 thuộc Điện Biên",
+  "Distance": 63.42,
+  "EstimatedTime": "90 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf1"
+  },
+  "RouteID": 158,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 3 thuộc Sơn La",
+  "Distance": 67.39,
+  "EstimatedTime": "42 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf2"
+  },
+  "RouteID": 159,
+  "StartLocation": "Trung tâm cứu trợ Sơn La",
+  "EndLocation": "Huyện 7 thuộc Sơn La",
+  "Distance": 6.87,
+  "EstimatedTime": "26 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf3"
+  },
+  "RouteID": 160,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 4 thuộc Hòa Bình",
+  "Distance": 27.95,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf4"
+  },
+  "RouteID": 161,
+  "StartLocation": "Trung tâm cứu trợ Hòa Bình",
+  "EndLocation": "Huyện 7 thuộc Hòa Bình",
+  "Distance": 28.29,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf5"
+  },
+  "RouteID": 162,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 10 thuộc Lào Cai",
+  "Distance": 94.56,
+  "EstimatedTime": "37 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf6"
+  },
+  "RouteID": 163,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 5 thuộc Lào Cai",
+  "Distance": 16.27,
+  "EstimatedTime": "80 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf7"
+  },
+  "RouteID": 164,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 8 thuộc Lào Cai",
+  "Distance": 32.92,
+  "EstimatedTime": "21 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf8"
+  },
+  "RouteID": 165,
+  "StartLocation": "Trung tâm cứu trợ Lào Cai",
+  "EndLocation": "Huyện 6 thuộc Lào Cai",
+  "Distance": 36.34,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cf9"
+  },
+  "RouteID": 166,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 6 thuộc Yên Bái",
+  "Distance": 68.73,
+  "EstimatedTime": "29 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cfa"
+  },
+  "RouteID": 167,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 10 thuộc Yên Bái",
+  "Distance": 46.03,
+  "EstimatedTime": "115 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cfb"
+  },
+  "RouteID": 168,
+  "StartLocation": "Trung tâm cứu trợ Yên Bái",
+  "EndLocation": "Huyện 1 thuộc Yên Bái",
+  "Distance": 19.68,
+  "EstimatedTime": "54 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cfc"
+  },
+  "RouteID": 169,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 4 thuộc Hà Giang",
+  "Distance": 95.45,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cfd"
+  },
+  "RouteID": 170,
+  "StartLocation": "Trung tâm cứu trợ Hà Giang",
+  "EndLocation": "Huyện 3 thuộc Hà Giang",
+  "Distance": 15.25,
+  "EstimatedTime": "103 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cfe"
+  },
+  "RouteID": 171,
+  "StartLocation": "Trung tâm cứu trợ Cao Bằng",
+  "EndLocation": "Huyện 3 thuộc Cao Bằng",
+  "Distance": 5.4,
+  "EstimatedTime": "66 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41cff"
+  },
+  "RouteID": 172,
+  "StartLocation": "Trung tâm cứu trợ Cao Bằng",
+  "EndLocation": "Huyện 6 thuộc Cao Bằng",
+  "Distance": 15.55,
+  "EstimatedTime": "112 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d00"
+  },
+  "RouteID": 173,
+  "StartLocation": "Trung tâm cứu trợ Cao Bằng",
+  "EndLocation": "Huyện 7 thuộc Cao Bằng",
+  "Distance": 30.68,
+  "EstimatedTime": "53 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d01"
+  },
+  "RouteID": 174,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 9 thuộc Bắc Kạn",
+  "Distance": 7.38,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d02"
+  },
+  "RouteID": 175,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 8 thuộc Bắc Kạn",
+  "Distance": 80.74,
+  "EstimatedTime": "34 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d03"
+  },
+  "RouteID": 176,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 8 thuộc Bắc Kạn",
+  "Distance": 47.04,
+  "EstimatedTime": "39 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d04"
+  },
+  "RouteID": 177,
+  "StartLocation": "Trung tâm cứu trợ Bắc Kạn",
+  "EndLocation": "Huyện 3 thuộc Bắc Kạn",
+  "Distance": 86.7,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d05"
+  },
+  "RouteID": 178,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 10 thuộc Thái Nguyên",
+  "Distance": 56.52,
+  "EstimatedTime": "101 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d06"
+  },
+  "RouteID": 179,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 8 thuộc Thái Nguyên",
+  "Distance": 66.16,
+  "EstimatedTime": "43 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d07"
+  },
+  "RouteID": 180,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 7 thuộc Thái Nguyên",
+  "Distance": 99.61,
+  "EstimatedTime": "69 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d08"
+  },
+  "RouteID": 181,
+  "StartLocation": "Trung tâm cứu trợ Thái Nguyên",
+  "EndLocation": "Huyện 1 thuộc Thái Nguyên",
+  "Distance": 51.03,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d09"
+  },
+  "RouteID": 182,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 6 thuộc Lạng Sơn",
+  "Distance": 5.94,
+  "EstimatedTime": "45 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0a"
+  },
+  "RouteID": 183,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 3 thuộc Lạng Sơn",
+  "Distance": 85.95,
+  "EstimatedTime": "88 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0b"
+  },
+  "RouteID": 184,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 7 thuộc Lạng Sơn",
+  "Distance": 72.75,
+  "EstimatedTime": "86 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0c"
+  },
+  "RouteID": 185,
+  "StartLocation": "Trung tâm cứu trợ Lạng Sơn",
+  "EndLocation": "Huyện 5 thuộc Lạng Sơn",
+  "Distance": 16.43,
+  "EstimatedTime": "111 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0d"
+  },
+  "RouteID": 186,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 9 thuộc Tuyên Quang",
+  "Distance": 90.27,
+  "EstimatedTime": "16 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0e"
+  },
+  "RouteID": 187,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 5 thuộc Tuyên Quang",
+  "Distance": 90.59,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d0f"
+  },
+  "RouteID": 188,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 4 thuộc Tuyên Quang",
+  "Distance": 89.96,
+  "EstimatedTime": "99 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d10"
+  },
+  "RouteID": 189,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 1 thuộc Tuyên Quang",
+  "Distance": 92.42,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d11"
+  },
+  "RouteID": 190,
+  "StartLocation": "Trung tâm cứu trợ Tuyên Quang",
+  "EndLocation": "Huyện 10 thuộc Tuyên Quang",
+  "Distance": 96.53,
+  "EstimatedTime": "61 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d12"
+  },
+  "RouteID": 191,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 9 thuộc Phú Thọ",
+  "Distance": 52.31,
+  "EstimatedTime": "114 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d13"
+  },
+  "RouteID": 192,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 2 thuộc Phú Thọ",
+  "Distance": 5.18,
+  "EstimatedTime": "28 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d14"
+  },
+  "RouteID": 193,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 7 thuộc Phú Thọ",
+  "Distance": 51.32,
+  "EstimatedTime": "48 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d15"
+  },
+  "RouteID": 194,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 8 thuộc Phú Thọ",
+  "Distance": 74.41,
+  "EstimatedTime": "117 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d16"
+  },
+  "RouteID": 195,
+  "StartLocation": "Trung tâm cứu trợ Phú Thọ",
+  "EndLocation": "Huyện 4 thuộc Phú Thọ",
+  "Distance": 47.48,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d17"
+  },
+  "RouteID": 196,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 1 thuộc Quảng Ninh",
+  "Distance": 97.65,
+  "EstimatedTime": "31 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d18"
+  },
+  "RouteID": 197,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 3 thuộc Quảng Ninh",
+  "Distance": 65.73,
+  "EstimatedTime": "72 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d19"
+  },
+  "RouteID": 198,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 7 thuộc Quảng Ninh",
+  "Distance": 32.92,
+  "EstimatedTime": "96 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1a"
+  },
+  "RouteID": 199,
+  "StartLocation": "Trung tâm cứu trợ Quảng Ninh",
+  "EndLocation": "Huyện 6 thuộc Quảng Ninh",
+  "Distance": 92.69,
+  "EstimatedTime": "108 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1b"
+  },
+  "RouteID": 200,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 2 thuộc Thái Bình",
+  "Distance": 74.33,
+  "EstimatedTime": "58 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1c"
+  },
+  "RouteID": 201,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 1 thuộc Thái Bình",
+  "Distance": 33.27,
+  "EstimatedTime": "23 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1d"
+  },
+  "RouteID": 202,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 6 thuộc Thái Bình",
+  "Distance": 28.26,
+  "EstimatedTime": "65 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1e"
+  },
+  "RouteID": 203,
+  "StartLocation": "Trung tâm cứu trợ Thái Bình",
+  "EndLocation": "Huyện 6 thuộc Thái Bình",
+  "Distance": 90.39,
+  "EstimatedTime": "84 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d1f"
+  },
+  "RouteID": 204,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 6 thuộc Hưng Yên",
+  "Distance": 13.13,
+  "EstimatedTime": "62 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d20"
+  },
+  "RouteID": 205,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 8 thuộc Hưng Yên",
+  "Distance": 42.97,
+  "EstimatedTime": "45 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d21"
+  },
+  "RouteID": 206,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 3 thuộc Hưng Yên",
+  "Distance": 99.01,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d22"
+  },
+  "RouteID": 207,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 6 thuộc Hưng Yên",
+  "Distance": 44.89,
+  "EstimatedTime": "33 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d23"
+  },
+  "RouteID": 208,
+  "StartLocation": "Trung tâm cứu trợ Hưng Yên",
+  "EndLocation": "Huyện 2 thuộc Hưng Yên",
+  "Distance": 11.81,
+  "EstimatedTime": "89 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d24"
+  },
+  "RouteID": 209,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 8 thuộc Hà Tĩnh",
+  "Distance": 51.11,
+  "EstimatedTime": "64 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d25"
+  },
+  "RouteID": 210,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 2 thuộc Hà Tĩnh",
+  "Distance": 94.37,
+  "EstimatedTime": "75 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d26"
+  },
+  "RouteID": 211,
+  "StartLocation": "Trung tâm cứu trợ Hà Tĩnh",
+  "EndLocation": "Huyện 4 thuộc Hà Tĩnh",
+  "Distance": 32.42,
+  "EstimatedTime": "15 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d27"
+  },
+  "RouteID": 212,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 8 thuộc Vĩnh Phúc",
+  "Distance": 20.56,
+  "EstimatedTime": "79 minutes",
+  "VehicleType": "Truck"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d28"
+  },
+  "RouteID": 213,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 9 thuộc Vĩnh Phúc",
+  "Distance": 58.08,
+  "EstimatedTime": "105 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d29"
+  },
+  "RouteID": 214,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 5 thuộc Vĩnh Phúc",
+  "Distance": 30.05,
+  "EstimatedTime": "116 minutes",
+  "VehicleType": "Boat"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d2a"
+  },
+  "RouteID": 215,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 10 thuộc Vĩnh Phúc",
+  "Distance": 11.69,
+  "EstimatedTime": "106 minutes",
+  "VehicleType": "Bike"
+},
+{
+  "_id": {
+    "$oid": "67447313cbb499819ac41d2b"
+  },
+  "RouteID": 216,
+  "StartLocation": "Trung tâm cứu trợ Vĩnh Phúc",
+  "EndLocation": "Huyện 5 thuộc Vĩnh Phúc",
+  "Distance": 31.85,
+  "EstimatedTime": "57 minutes",
+  "VehicleType": "Truck"
+}]
