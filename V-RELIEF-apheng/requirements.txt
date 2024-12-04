@@ -1,4 +1,0 @@
-tensorflow
-Pillow
-scikit-learn
-matplotlib
