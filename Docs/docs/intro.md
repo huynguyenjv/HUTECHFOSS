@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Giới thiệu về V-Relief
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Chào mừng bạn đến với **V-Relief**, một hệ thống toàn diện được thiết kế để tối ưu hóa công tác ứng phó và khắc phục hậu quả thiên tai tại Việt Nam. Trong bối cảnh thiên tai như bão và lũ lụt ngày càng gia tăng cả về quy mô và mức độ tàn phá, V-Relief ra đời nhằm cung cấp một giải pháp số hóa và tích hợp, giúp hỗ trợ các tổ chức, chính quyền địa phương và cộng đồng trong việc quản lý và phân phối nguồn lực hiệu quả hơn.
 
-## Getting Started
+## Mục tiêu của V-Relief
 
-Get started by **creating a new site**.
+Hệ thống V-Relief không chỉ dừng lại ở việc cung cấp thông tin mà còn mang đến khả năng điều phối các nguồn lực cứu trợ một cách thông minh. Với mục tiêu xây dựng một mạng lưới hỗ trợ chặt chẽ và minh bạch, V-Relief hướng đến việc giảm thiểu thời gian phản hồi, tối ưu hóa việc phân phối nhu yếu phẩm, đồng thời kết nối tình nguyện viên và những người bị ảnh hưởng.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## V-Relief làm được gì?
 
-### What you'll need
+V-Relief là một hệ thống đa chức năng, kết hợp các công nghệ hiện đại như API theo dõi thời tiết, bản đồ địa lý, và tự động hóa quy trình làm việc để tạo ra một nền tảng quản lý cứu trợ toàn diện. Hệ thống được thiết kế để phục vụ nhiều đối tượng người dùng, bao gồm chính quyền, tổ chức cứu trợ, tình nguyện viên, và người dân.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Các tính năng nổi bật
 
-## Generate a new site
+1. **Theo dõi thiên tai theo thời gian thực**  
+   Sử dụng API từ các nền tảng như Windy.com, V-Relief cung cấp thông tin mới nhất về tình hình thời tiết, bão và lũ lụt. Người dùng có thể dễ dàng tra cứu thông tin chi tiết về các khu vực bị ảnh hưởng và cập nhật tình hình thiên tai đang diễn ra.
 
-Generate a new Docusaurus site using the **classic template**.
+2. **Danh bạ trung tâm cứu trợ**  
+   Hệ thống cung cấp một danh sách đầy đủ các trung tâm cứu trợ trên toàn quốc, giúp người dân nhanh chóng tìm kiếm và kết nối với cơ sở hỗ trợ gần nhất. Thông tin bao gồm địa chỉ, số điện thoại và các dịch vụ mà trung tâm cung cấp.
 
-The classic template will automatically be added to your project after you run the command:
+3. **Đăng ký và phân phối nhu yếu phẩm**  
+   Người dân có thể đăng ký nhu cầu về nhu yếu phẩm qua hệ thống, từ đó đội ngũ cứu trợ có thể lên kế hoạch phân phối hợp lý dựa trên vị trí địa lý và mức độ ưu tiên của từng khu vực.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+4. **Tra cứu khu vực bị ảnh hưởng**  
+   V-Relief tích hợp bản đồ tương tác, hiển thị các khu vực bị thiệt hại bởi thiên tai. Thông qua bản đồ này, người dùng có thể dễ dàng nhận biết tình trạng và mức độ ảnh hưởng của các khu vực.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+5. **Điều phối tình nguyện viên**  
+   Tình nguyện viên có thể đăng ký tham gia các hoạt động cứu trợ thông qua hệ thống. V-Relief sẽ tự động thông báo khi có yêu cầu hỗ trợ gần vị trí của họ, giúp tối ưu hóa việc điều phối nguồn lực con người.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+6. **Hỗ trợ cộng đồng và kiến thức tự cứu**  
+   Ngoài các tính năng chính, V-Relief còn cung cấp một cơ sở dữ liệu kiến thức tự cứu và sơ cứu, giúp cộng đồng nâng cao kỹ năng ứng phó khi xảy ra thiên tai. 
 
-## Start your site
+## Sứ mệnh của V-Relief
 
-Run the development server:
+Với V-Relief, chúng tôi hy vọng xây dựng một cộng đồng bền vững và chủ động hơn trong công tác ứng phó thiên tai. Hệ thống không chỉ tập trung vào việc giảm thiểu hậu quả mà còn đặt nền móng cho một hệ sinh thái hỗ trợ liên kết chặt chẽ, nơi mà mỗi người dân, tổ chức và chính quyền địa phương đều có thể góp phần vào việc xây dựng một tương lai an toàn hơn.
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Hãy cùng chúng tôi tạo nên sự thay đổi với V-Relief!

@@ -1,50 +1,43 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# FAQ's
+# Câu hỏi thường gặp (FAQ)
 
-**Frequently Asked Questions.**
+**Dưới đây là một số câu hỏi thường gặp về hệ thống V-Relief.**
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <img src="/img/tl.png" alt="Docusaurus logo" />
+  <img src="/img/banner.png" alt="Logo V-Relief" />
 </div>
-## 1.
 
-Get started by **creating a new site**.
+## 1. V-Relief là gì?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+V-Relief là một nền tảng ứng phó khẩn cấp và phục hồi thiên tai được thiết kế để giúp điều phối việc cung cấp nhu yếu phẩm và tình nguyện viên trong các thảm họa thiên nhiên ở Việt Nam. Hệ thống cung cấp theo dõi thảm họa theo thời gian thực, liệt kê các trung tâm cứu trợ, cho phép người dùng đăng ký nhu yếu phẩm và kết nối tình nguyện viên với các khu vực bị ảnh hưởng.
 
-### What you'll need
+## 2. Làm sao để đăng ký tham gia V-Relief?
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Để đăng ký, bạn có thể tạo tài khoản thông qua trang web hoặc ứng dụng V-Relief. Sau khi đăng nhập, bạn có thể đăng ký tham gia tình nguyện hoặc đăng ký nhu yếu phẩm mà bạn muốn đóng góp.
 
-## Generate a new site
+## 3. Làm sao để theo dõi thảm họa và khu vực bị ảnh hưởng?
 
-Generate a new Docusaurus site using the **classic template**.
+V-Relief tích hợp với các hệ thống theo dõi thảm họa như Windy.com để cung cấp các bản cập nhật về bão và lũ theo thời gian thực. Bạn có thể xem các khu vực bị ảnh hưởng trên bản đồ và nhận thông báo về các nỗ lực cứu trợ gần đó.
 
-The classic template will automatically be added to your project after you run the command:
+## 4. Tôi có thể yêu cầu nhu yếu phẩm như thế nào?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Nếu bạn ở khu vực bị ảnh hưởng, bạn có thể yêu cầu nhu yếu phẩm thiết yếu. Chỉ cần đăng ký vị trí và loại nhu yếu phẩm bạn cần. Hệ thống của chúng tôi sẽ kết nối bạn với các nhà cung cấp và tình nguyện viên gần đó.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## 5. Hệ thống điều phối tình nguyện viên hoạt động như thế nào?
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Tình nguyện viên có thể đăng ký qua hệ thống V-Relief và chỉ định loại giúp đỡ mà họ có thể cung cấp (ví dụ: vận chuyển, sơ cứu, v.v.). Hệ thống sẽ thông báo cho tình nguyện viên khi có yêu cầu trợ giúp trong khu vực của họ.
 
-## Start your site
+## 6. Hệ thống xử lý việc phân phối nhu yếu phẩm như thế nào?
 
-Run the development server:
+Các nhà cung cấp và tổ chức có thể đăng ký nguồn lực sẵn có của họ thông qua V-Relief. Hệ thống sẽ kết nối các nguồn lực này với nhu cầu của những người bị ảnh hưởng, đảm bảo việc phân phối hiệu quả trong tình huống khẩn cấp.
 
-```bash
-cd my-website
-npm run start
-```
+## 7. Tôi có thể tham gia với tư cách nhà cung cấp hoặc tình nguyện viên mà không cần tài khoản không?
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Không, tài khoản là bắt buộc đối với cả nhà cung cấp và tình nguyện viên để đảm bảo rằng chúng tôi có thể kết nối tài nguyên và tình nguyện viên một cách hiệu quả và cung cấp hỗ trợ đúng lúc trong các tình huống khẩn cấp.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 8. Hệ thống V-Relief có biện pháp bảo mật dữ liệu như thế nào?
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Chúng tôi rất chú trọng đến việc bảo mật dữ liệu và sử dụng mã hóa chuẩn ngành để bảo vệ thông tin cá nhân của bạn. Việc truy cập dữ liệu nhạy cảm chỉ được phép cho các nhân viên có thẩm quyền.
