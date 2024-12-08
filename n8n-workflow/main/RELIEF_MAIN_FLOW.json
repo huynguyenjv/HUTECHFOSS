@@ -170,6 +170,12 @@
     },
     {
       "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "dDFFfgFkNdkCouVx",
+          "mode": "list",
+          "cachedResultName": "CHATBOT"
+        },
         "options": {}
       },
       "id": "287b6f19-6be6-46b3-b8fc-5a80fd4d0805",
@@ -190,6 +196,19 @@
       "position": [
         1340,
         20
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "e4a89580-69cf-43db-a17f-2d1025e4664d",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1340,
+        260
       ]
     }
   ],
@@ -248,13 +267,24 @@
           }
         ]
       ]
+    },
+    "CHATBOT": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "b63dc037-6bb0-4a42-bc26-9f96caa840d9",
+  "versionId": "6171ec36-7e6e-4ff8-bf8f-d450728d3adc",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"

@@ -1,0 +1,201 @@
+{
+  "name": "Center Rescue Flow",
+  "nodes": [
+    {
+      "parameters": {
+        "collection": "reliefCenter",
+        "options": {
+          "limit": 10
+        }
+      },
+      "id": "c6cca02e-3843-4607-b1fd-654c264e3cb1",
+      "name": "MongoDB",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [
+        1500,
+        380
+      ],
+      "credentials": {
+        "mongoDb": {
+          "id": "BgiQjbwJlI2D2yvB",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "id": "5e688763-17a7-410d-9be1-5af517c6c489",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        2300,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "9c3699fe-e4c4-4e0d-8309-8c447f5d33fe",
+              "name": "name",
+              "value": "={{ $json['Tên dịch vụ'] }}",
+              "type": "string"
+            },
+            {
+              "id": "bcc98eec-83af-48f0-b507-25c14eda7ad6",
+              "name": "address",
+              "value": "={{ $json['Địa chỉ'] }}",
+              "type": "string"
+            },
+            {
+              "id": "e198f224-a9d8-49f7-9af8-c8519c6cbd68",
+              "name": "phoneNumber",
+              "value": "={{ $json['Số điện thoại'] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "88fc03f3-37ad-4768-b49b-7a649ac7cb19",
+      "name": "Edit Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1800,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "path": "relief-center",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "http://localhost:5173/"
+        }
+      },
+      "id": "8837e4e0-f98f-4751-bde6-498b9227e712",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        1120,
+        380
+      ],
+      "webhookId": "6b63d4c5-f19d-4993-a21d-0c7d4ed6e839"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "df7ab710-233b-45a1-986f-e9090bed9e56",
+              "leftValue": "={{ $json.query.search.name }}",
+              "rightValue": "={{ $json.name }}",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            },
+            {
+              "id": "eb645085-72fc-4d5b-af43-889ae9a6bfbf",
+              "leftValue": "={{ $json.provinceSearch }}",
+              "rightValue": "={{ $json.address }}",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "id": "f419c650-99cf-4ab6-8f54-2448cb8b3e20",
+      "name": "Filter",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        1860,
+        80
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "MongoDB": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "MongoDB",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "2ddfca03-092c-429b-a96e-53d0a8009d02",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"
+  },
+  "id": "Xdhju8iHxkQYW8ta",
+  "tags": []
+}
