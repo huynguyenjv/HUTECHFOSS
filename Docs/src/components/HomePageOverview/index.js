@@ -3,20 +3,32 @@ import styles from './styles.module.css';
 
 const TechnologiesAndSponsorsList = [
   {
-    title: 'Tentative Technologies',
+    title: 'Công Nghệ Dự Kiến',
   },
   {
     src: require('@site/static/img/n8n.png').default,
     href: 'http://n8n.io/',
   },
   {
-    src: require('@site/static/img/typescript.png').default,
-    href: 'https://www.typescriptlang.org/',
+    src: require('@site/static/img/reactjs.png').default,
+    href: 'https://react.dev/',
   },
   {
-    src: require('@site/static/img/docusaurus.png').default,
-    href: 'https://docusaurus.io/',
+    src: require('@site/static/img/botpress.png').default,
+    href: 'https://botpress.com/',
   },
+  {
+    src: require('@site/static/img/openAI.png').default,
+    href: 'https://openai.com/',
+  },
+  {
+    src: require('@site/static/img/windy.png').default,
+    href: 'https://windy.com/',
+  },
+  {
+    src: require('@site/static/img/openWeather.png').default,
+    href: 'https://openweathermap.org/',
+  }
 
 ];
 

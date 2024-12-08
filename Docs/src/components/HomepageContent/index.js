@@ -10,9 +10,7 @@ export default function HomepageContent() {
               <img src="img/tinhnguyenvien.png" className={styles.demoImg} />
             </div>
             <div className="col col--6">
-              <h3>Create native apps for Windows, MacOs and Linux using Vue and CSS</h3>
-              <p>lets you create truly native apps and doesn't compromise on your users' experience. It provides a core set of platform agnostic native widgets that map directly to the platform’s native UI building blocks.</p>
-              <p>Vue NodeGui widgets are built on top of <a href="https://www.qt.io/" target="_blank">Qt</a> which is a mature desktop apps framework. Vue NodeGui components are extremely customizable just like in the web but does <strong>NOT</strong> use a Web browser under the hood.</p>
+            <h3>Đăng ký cứu trợ - Dự án hệ thống cứu trợ V-Relief</h3> <p>Dự án V-Relief giúp tạo nên một hệ thống hỗ trợ cứu trợ toàn diện, mang lại trải nghiệm thân thiện và hiệu quả cho người dùng. Hệ thống cung cấp các chức năng cần thiết để quản lý thông tin và tổ chức cứu trợ một cách hiệu quả, dựa trên nền tảng công nghệ hiện đại.Các thành phần giao diện của V-Relief được xây dựng bằng <b>Reactjs</b> </p>
             </div>
           </div>
         </section>
