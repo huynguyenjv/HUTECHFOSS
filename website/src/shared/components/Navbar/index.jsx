@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="items-center gap-[20px] text-[1rem] text-white font-bold lg:flex hidden">
                 <button
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
-                    onClick={() => navigate("/phap-dien")}
+                    onClick={() => navigate("/ban-do-thien-tai")}
                 >
                     Tra Cứu
                 </button>

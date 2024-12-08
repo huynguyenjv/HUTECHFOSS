@@ -14,6 +14,7 @@ const Login = loadable(() => import("~/features/Login"));
 const Centers = loadable(() => import("~/features/Centers"));
 const HelperForm = loadable(() => import("~/features/HelperForm"));
 const Windy = loadable(() => import("~/features/Windy"));
+const DisasterMap = loadable(() => import("~/features/DisasterMap"));
 
 function App() {
     useEffect(() => {
@@ -72,6 +73,14 @@ function App() {
                         element={
                             <Suspense fallback={<CircularProgress />}>
                                 <Windy title="Windy" />
+                            </Suspense>
+                        }
+                    />
+                    <Route
+                        path="/ban-do-thien-tai"
+                        element={
+                            <Suspense fallback={<CircularProgress />}>
+                                <DisasterMap title="Disaster Map" />
                             </Suspense>
                         }
                     />
