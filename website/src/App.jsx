@@ -2,7 +2,7 @@ import { Suspense, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import loadable from "@loadable/component";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import AuthLayout from "./shared/layouts/AuthLayout";
 import BasicLayout from "./shared/layouts/BasicLayout";
 import ContentLayout from "./shared/layouts/ContentLayout";
@@ -15,6 +15,28 @@ const Centers = loadable(() => import("~/features/Centers"));
 const HelperForm = loadable(() => import("~/features/HelperForm"));
 const Windy = loadable(() => import("~/features/Windy"));
 const DisasterMap = loadable(() => import("~/features/DisasterMap"));
+
+const sendToWebhook = (page) => {
+    fetch("https://your-n8n-instance/webhook/page-visit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            page: page, // Path hiện tại
+            timestamp: new Date().toISOString(), // Thời gian
+        }),
+    }).catch((err) => console.error("Error sending to webhook:", err));
+};
+
+const PageTracker = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        // Gửi dữ liệu đến webhook khi route thay đổi
+        sendToWebhook(location.pathname);
+    }, [location]);
+
+    return null;
+};
 
 function App() {
     useEffect(() => {
