@@ -41,13 +41,6 @@
 
 <br/>
 
-<p align="justify">
-
-⚙️ This project used **SonarCloud** to analyze the code quality of the project. **Pulumi** for infrastructure as code (IaC). The badge below shows the quality of the code. Click on the badge to see the details.
-
-</p>
-
-<br/>
 
 <p align="center">
 	<a href="https://sonarcloud.io/summary/new_code?id=foxminchan_LawKnowledge" target="blank">
