@@ -7,7 +7,18 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "chiTietDieuPhoi": "Chi Tiet Dieu Phoi",
+        "loaiNguoiNhan": "Loai Nguoi Nhan",
+        "loaiNhuYeuPham": "Loai Nhu Yeu Pham",
+        "loaiThienTai": "Loai Thien Tai",
+        "nguoiNhan": "Nguoi Nhan",
+        "nhaCungCap": "Nha Cung Cap",
+        "nhuYeuPham": "Nhu Yeu Pham",
+        "phieuDieuPhoi": "Phieu Dieu Phoi",
+        "tinhNguyenVien": "Tinh Nguyen Vien",
+        "trangThai": "Trang Thai",
+        "vung": "Vung"
       },
       "account": {
         "main": "Account",

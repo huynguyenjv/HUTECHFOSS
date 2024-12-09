@@ -1,0 +1,28 @@
+{
+  "adminApp": {
+    "chiTietDieuPhoi": {
+      "home": {
+        "title": "Chi Tiet Dieu Phois",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Chi Tiet Dieu Phoi",
+        "createOrEditLabel": "Create or edit a Chi Tiet Dieu Phoi",
+        "notFound": "No Chi Tiet Dieu Phois found"
+      },
+      "created": "A new Chi Tiet Dieu Phoi is created with identifier {{ param }}",
+      "updated": "A Chi Tiet Dieu Phoi is updated with identifier {{ param }}",
+      "deleted": "A Chi Tiet Dieu Phoi is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Chi Tiet Dieu Phoi {{ id }}?"
+      },
+      "detail": {
+        "title": "Chi Tiet Dieu Phoi"
+      },
+      "id": "ID",
+      "phieuDieuPhoiId": "Phieu Dieu Phoi Id",
+      "nhuYeuPhamId": "Nhu Yeu Pham Id",
+      "soLuong": "So Luong",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

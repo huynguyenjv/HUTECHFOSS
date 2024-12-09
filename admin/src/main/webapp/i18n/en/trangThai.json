@@ -1,0 +1,27 @@
+{
+  "adminApp": {
+    "trangThai": {
+      "home": {
+        "title": "Trang Thais",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Trang Thai",
+        "createOrEditLabel": "Create or edit a Trang Thai",
+        "notFound": "No Trang Thais found"
+      },
+      "created": "A new Trang Thai is created with identifier {{ param }}",
+      "updated": "A Trang Thai is updated with identifier {{ param }}",
+      "deleted": "A Trang Thai is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Trang Thai {{ id }}?"
+      },
+      "detail": {
+        "title": "Trang Thai"
+      },
+      "id": "ID",
+      "tenTrangThai": "Ten Trang Thai",
+      "moTa": "Mo Ta",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

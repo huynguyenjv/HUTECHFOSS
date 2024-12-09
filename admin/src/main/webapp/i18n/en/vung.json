@@ -1,0 +1,30 @@
+{
+  "adminApp": {
+    "vung": {
+      "home": {
+        "title": "Vungs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vung",
+        "createOrEditLabel": "Create or edit a Vung",
+        "notFound": "No Vungs found"
+      },
+      "created": "A new Vung is created with identifier {{ param }}",
+      "updated": "A Vung is updated with identifier {{ param }}",
+      "deleted": "A Vung is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vung {{ id }}?"
+      },
+      "detail": {
+        "title": "Vung"
+      },
+      "id": "ID",
+      "tenVung": "Ten Vung",
+      "lat": "Lat",
+      "lng": "Lng",
+      "loaiThienTaiId": "Loai Thien Tai Id",
+      "soDan": "So Dan",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

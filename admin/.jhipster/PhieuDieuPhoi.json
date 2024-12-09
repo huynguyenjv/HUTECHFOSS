@@ -1,0 +1,46 @@
+{
+  "annotations": {
+    "changelogDate": "20241209160903"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "nhaCungCapId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nguoiNhanId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "tinhNguyenVienId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "trangThaiId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "thoiGianDen",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "thoiGianCho",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "PhieuDieuPhoi",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
