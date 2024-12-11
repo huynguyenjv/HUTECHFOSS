@@ -1,4 +1,3 @@
-import { Container } from "@mui/material";
 import NavigatorCard from "./components/NavigatorCard";
 import logo from "../../assets/lottie/logo.json";
 import Searching from "../../assets/lottie/searching.json";
@@ -15,10 +14,10 @@ const NavigatorCardData = [
 export default function Home() {
     return (
         <main>
-            <Container className="mt-5">
+            <div className="mx-20 mt-5 mb-10">
                 <div className="flex justify-center grid-cols-1 gap-4 md:grid-cols-3">
                     <div className="text-center md:col-span-2">
-                        <h1 className="mb-3 text-2xl font-bold tracking-normal text-blue-gray-900">
+                        <h1 className="mb-3 text-2xl font-bold tracking-normal uppercase text-blue-gray-900">
                             Các chức năng của ứng dụng
                         </h1>
                     </div>
@@ -28,7 +27,7 @@ export default function Home() {
                         <NavigatorCard key={item.index} item={item} />
                     ))}
                 </div>
-            </Container>
+            </div>
         </main>
     );
 }

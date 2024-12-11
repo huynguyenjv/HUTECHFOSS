@@ -1,102 +1,101 @@
-entity ChiTietDieuPhoi {
-  phieuDieuPhoiId Integer,
-  nhuYeuPhamId Integer,
-  soLuong Integer,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
-}
-
-entity LoaiNguoiNhan {
-  tenLoai String required unique,
-  moTa String,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
-}
-
-entity LoaiNhuYeuPham {
-  tenLoai String required unique,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
-}
-
-entity LoaiThienTai {
-  tenLoaiThienTai String required unique,
-  moTa String,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
-}
-
-entity NguoiNhan {
-  tenNguoiNhan String required,
+entity ThongTinNguoiNhan {
+  maThongTinNguoiNhan String required,
+  hoTen String,
   soDienThoai String,
   email String,
-  diaChi String,
-  vungId Integer,
-  soNguoiNhan Integer,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+  diaChi String
 }
 
-
-entity NhaCungCap {
-  tenNhaCungCap String required unique,
-  soDienThoai String,
-  email String,
+entity KhuVucThienTai {
+  maKhuVuc String required,
+  tenKhuVuc String,
   diaChi String,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+  kinhDo Double,
+  viDo Double,
+  loaiThienTai String,
+  mucDoThietHai String
+}
+
+entity PhieuYeuCau {
+  idPhieu String required,
+  soLuongYeuCau Integer,
+  trangThai String
+}
+
+entity ChiTietYeuCau {
+  soLuongConLai Integer
 }
 
 entity NhuYeuPham {
-  tenNhuYeuPham String required,
-  donViTinh String,
-  loaiNhuYeuPhamId Integer,
-  mucCanhBao Integer,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+  maNhuYeuPham String required,
+  tenNhuYeuPham String,
+  dvt String,
+  soLuong Integer
+}
+
+entity ThongTinNguoiQuyenGop {
+  maNguoiQuyenGop String required,
+  hoTen String,
+  soDienThoai String,
+  email String,
+  diaChi String
+}
+
+entity ChiTietQuyenGop {
 }
 
 entity PhieuDieuPhoi {
-  nhaCungCapId Integer,
-  nguoiNhanId Integer,
-  tinhNguyenVienId Integer,
-  trangThaiId Integer,
-  thoiGianDen ZonedDateTime,
-  thoiGianCho ZonedDateTime,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+  soPhieuDieuPhoi String required,
+  thoiGianBatDau Instant,
+  thoiGianKetThuc Instant,
+  trangThai String
 }
 
 entity TinhNguyenVien {
-  tenTinhNguyenVien String required unique,
+  maTinhNguyenVien String required,
+  hoTen String,
   soDienThoai String,
+  email String,
   diaChi String,
-  trangThaiId Integer,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+  kinhNghiem String,
+  congViecMongMuon String,
+  trangThai String
 }
 
-entity TrangThai {
-  tenTrangThai String required unique,
-  moTa String,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+relationship OneToMany {
+  ThongTinNguoiNhan {phieuYeuCau} to PhieuYeuCau
 }
 
-entity Vung {
-  tenVung String required unique,
-  lat BigDecimal,
-  lng BigDecimal,
-  loaiThienTaiId Integer,
-  soDan Integer,
-  createdAt ZonedDateTime,
-  updatedAt ZonedDateTime
+relationship OneToMany {
+  KhuVucThienTai {phieuYeuCau} to PhieuYeuCau
 }
 
+relationship OneToMany {
+  PhieuYeuCau {chiTietYeuCau} to ChiTietYeuCau
+}
 
-// DTO and Service
-dto * with mapstruct
+relationship OneToMany {
+  ChiTietYeuCau {nhuYeuPham} to NhuYeuPham
+}
+
+relationship OneToMany {
+  ThongTinNguoiQuyenGop {chiTietQuyenGop} to ChiTietQuyenGop
+}
+
+relationship ManyToOne {
+  ChiTietQuyenGop {nhuYeuPham} to NhuYeuPham
+}
+
+relationship ManyToOne {
+  PhieuDieuPhoi {kkhuVucThienTai} to KhuVucThienTai
+}
+
+relationship ManyToOne {
+  PhieuDieuPhoi {tinhNguyenVien} to TinhNguyenVien
+}
+
+paginate * with pagination
 service * with serviceClass
 
-// Pagination
-paginate ChiTietDieuPhoi, LoaiNguoiNhan, LoaiNhuYeuPham, LoaiThienTai, NguoiNhan, NhaCungCap, NhuYeuPham, PhieuDieuPhoi, TinhNguyenVien, TrangThai, Vung with pagination
+// Enable MapStruct for DTO generation
+dto * with mapstruct
