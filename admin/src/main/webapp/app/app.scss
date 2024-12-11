@@ -1,10 +1,9 @@
 // Override Bootstrap variables
 @import 'bootstrap-variables';
-@import 'bootswatch/dist/cerulean/variables';
 // Import Bootstrap source files from node_modules
 @import 'bootstrap/scss/bootstrap';
-@import 'bootswatch/dist/cerulean/bootswatch';
 body {
+  background: #fafafa;
   margin: 0;
 }
 

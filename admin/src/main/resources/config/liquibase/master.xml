@@ -11,17 +11,6 @@
     <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160856_added_entity_ChiTietDieuPhoi.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160857_added_entity_LoaiNguoiNhan.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160858_added_entity_LoaiNhuYeuPham.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160859_added_entity_LoaiThienTai.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160900_added_entity_NguoiNhan.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160901_added_entity_NhaCungCap.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160902_added_entity_NhuYeuPham.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160903_added_entity_PhieuDieuPhoi.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160904_added_entity_TinhNguyenVien.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160905_added_entity_TrangThai.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20241209160906_added_entity_Vung.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
