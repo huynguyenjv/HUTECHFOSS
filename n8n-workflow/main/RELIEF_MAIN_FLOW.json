@@ -3,154 +3,6 @@
   "nodes": [
     {
       "parameters": {
-        "path": "615527cc-6031-4506-8a60-721830ee3c80",
-        "options": {}
-      },
-      "id": "73179db1-3324-4ec8-af3f-20fc05b2518a",
-      "name": "Webhook",
-      "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2,
-      "position": [
-        340,
-        260
-      ],
-      "webhookId": "615527cc-6031-4506-8a60-721830ee3c80"
-    },
-    {
-      "parameters": {
-        "rules": {
-          "values": [
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "strict",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "leftValue": "",
-                    "rightValue": "",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              }
-            },
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "strict",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "444407ca-3880-42a0-acdd-396ecd4e10f8",
-                    "leftValue": "",
-                    "rightValue": "",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals",
-                      "name": "filter.operator.equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              }
-            },
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "strict",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "16cad211-4ab0-4fb6-a5e4-44cb8f20a9f4",
-                    "leftValue": "",
-                    "rightValue": "",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals",
-                      "name": "filter.operator.equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              }
-            },
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "strict",
-                  "version": 2
-                },
-                "conditions": [
-                  {
-                    "id": "fe729b80-e9d5-4fe1-a405-bf2aa8d2f2c2",
-                    "leftValue": "",
-                    "rightValue": "",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals",
-                      "name": "filter.operator.equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              }
-            }
-          ]
-        },
-        "options": {}
-      },
-      "id": "28cf1f5e-a7c0-482d-9351-2537cde4d46d",
-      "name": "Switch",
-      "type": "n8n-nodes-base.switch",
-      "typeVersion": 3.2,
-      "position": [
-        560,
-        260
-      ]
-    },
-    {
-      "parameters": {
-        "options": {}
-      },
-      "id": "e34f5772-5450-4677-a5b5-547057a13df5",
-      "name": "Execute Workflow2",
-      "type": "n8n-nodes-base.executeWorkflow",
-      "typeVersion": 1.1,
-      "position": [
-        1020,
-        480
-      ]
-    },
-    {
-      "parameters": {
-        "options": {}
-      },
-      "id": "7409f16d-c978-4aed-9db9-fb59a96040a8",
-      "name": "Execute Workflow3",
-      "type": "n8n-nodes-base.executeWorkflow",
-      "typeVersion": 1.1,
-      "position": [
-        1020,
-        720
-      ]
-    },
-    {
-      "parameters": {
         "workflowId": {
           "__rl": true,
           "value": "ttsbko7HYox6v88o",
@@ -200,25 +52,234 @@
     },
     {
       "parameters": {
+        "respondWith": "allIncomingItems",
         "options": {}
       },
-      "id": "e4a89580-69cf-43db-a17f-2d1025e4664d",
-      "name": "HTTP Request",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
+      "id": "993146c5-b63f-412c-8318-283e4b553499",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
       "position": [
         1340,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "615527cc-6031-4506-8a60-721830ee3c80",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "73179db1-3324-4ec8-af3f-20fc05b2518a",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        340,
+        260
+      ],
+      "webhookId": "615527cc-6031-4506-8a60-721830ee3c80"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "e5P73MNg0eBbxDJq",
+          "mode": "list",
+          "cachedResultName": "Disaster Map"
+        },
+        "options": {}
+      },
+      "id": "7409f16d-c978-4aed-9db9-fb59a96040a8",
+      "name": "DISASTER MAP",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.1,
+      "position": [
+        1020,
+        720
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "id": "b8a62b76-9d65-42dd-90dd-01c49d2a5211",
+      "name": "Respond to Webhook1",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1340,
+        720
+      ]
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "Xdhju8iHxkQYW8ta",
+          "mode": "list",
+          "cachedResultName": "Center Rescue Flow"
+        },
+        "options": {}
+      },
+      "id": "e34f5772-5450-4677-a5b5-547057a13df5",
+      "name": "CENTER",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.1,
+      "position": [
+        1020,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.body.page }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "444407ca-3880-42a0-acdd-396ecd4e10f8",
+                    "leftValue": "={{ $json.body.page }}",
+                    "rightValue": "vrelief-AI",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "16cad211-4ab0-4fb6-a5e4-44cb8f20a9f4",
+                    "leftValue": "={{ $json.body.page }}",
+                    "rightValue": "trung-tam-cuu-tro",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "fe729b80-e9d5-4fe1-a405-bf2aa8d2f2c2",
+                    "leftValue": "={{ $json.body.page }}",
+                    "rightValue": "/ban-do-thien-tai",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "28cf1f5e-a7c0-482d-9351-2537cde4d46d",
+      "name": "Switch",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        560,
         260
       ]
     }
   ],
   "pinData": {},
   "connections": {
+    "GET LIST REGION": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
     "Webhook": {
       "main": [
         [
           {
             "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DISASTER MAP": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "CENTER": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
             "type": "main",
             "index": 0
           }
@@ -243,36 +304,14 @@
         ],
         [
           {
-            "node": "Execute Workflow2",
+            "node": "CENTER",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Execute Workflow3",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "GET LIST REGION": {
-      "main": [
-        [
-          {
-            "node": "No Operation, do nothing",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "CHATBOT": {
-      "main": [
-        [
-          {
-            "node": "HTTP Request",
+            "node": "DISASTER MAP",
             "type": "main",
             "index": 0
           }
@@ -284,7 +323,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "6171ec36-7e6e-4ff8-bf8f-d450728d3adc",
+  "versionId": "7137531d-65a0-4046-9bbc-1e64da06b104",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"

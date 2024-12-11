@@ -25,22 +25,6 @@
     },
     {
       "parameters": {
-        "respondWith": "allIncomingItems",
-        "options": {
-          "responseCode": 200
-        }
-      },
-      "id": "5e688763-17a7-410d-9be1-5af517c6c489",
-      "name": "Respond to Webhook",
-      "type": "n8n-nodes-base.respondToWebhook",
-      "typeVersion": 1.1,
-      "position": [
-        2300,
-        380
-      ]
-    },
-    {
-      "parameters": {
         "assignments": {
           "assignments": [
             {
@@ -70,68 +54,30 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        1800,
+        1840,
         380
       ]
     },
     {
-      "parameters": {
-        "path": "relief-center",
-        "responseMode": "responseNode",
-        "options": {
-          "allowedOrigins": "http://localhost:5173/"
-        }
-      },
-      "id": "8837e4e0-f98f-4751-bde6-498b9227e712",
-      "name": "Webhook",
-      "type": "n8n-nodes-base.webhook",
-      "typeVersion": 2,
+      "parameters": {},
+      "id": "5e7f4f50-4c8a-451f-8538-19bc2d0733d7",
+      "name": "Execute Workflow Trigger",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
       "position": [
-        1120,
+        1160,
         380
-      ],
-      "webhookId": "6b63d4c5-f19d-4993-a21d-0c7d4ed6e839"
+      ]
     },
     {
-      "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "strict",
-            "version": 2
-          },
-          "conditions": [
-            {
-              "id": "df7ab710-233b-45a1-986f-e9090bed9e56",
-              "leftValue": "={{ $json.query.search.name }}",
-              "rightValue": "={{ $json.name }}",
-              "operator": {
-                "type": "string",
-                "operation": "contains"
-              }
-            },
-            {
-              "id": "eb645085-72fc-4d5b-af43-889ae9a6bfbf",
-              "leftValue": "={{ $json.provinceSearch }}",
-              "rightValue": "={{ $json.address }}",
-              "operator": {
-                "type": "string",
-                "operation": "contains"
-              }
-            }
-          ],
-          "combinator": "or"
-        },
-        "options": {}
-      },
-      "id": "f419c650-99cf-4ab6-8f54-2448cb8b3e20",
-      "name": "Filter",
-      "type": "n8n-nodes-base.filter",
-      "typeVersion": 2.2,
+      "parameters": {},
+      "id": "2049b1be-4fb9-4bd9-b01e-c102390d2813",
+      "name": "No Operation, do nothing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
       "position": [
-        1860,
-        80
+        2140,
+        380
       ]
     }
   ],
@@ -152,34 +98,18 @@
       "main": [
         [
           {
-            "node": "Filter",
+            "node": "No Operation, do nothing",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Webhook": {
+    "Execute Workflow Trigger": {
       "main": [
         [
           {
             "node": "MongoDB",
-            "type": "main",
-            "index": 0
-          },
-          {
-            "node": "Filter",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Filter": {
-      "main": [
-        [
-          {
-            "node": "Respond to Webhook",
             "type": "main",
             "index": 0
           }
@@ -191,7 +121,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "2ddfca03-092c-429b-a96e-53d0a8009d02",
+  "versionId": "4232a996-eb32-4695-8cdf-e7970ceb6163",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"

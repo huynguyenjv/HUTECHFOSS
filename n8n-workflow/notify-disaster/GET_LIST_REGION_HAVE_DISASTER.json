@@ -1,0 +1,468 @@
+{
+  "name": "GET LIST REGION HAVE DISASTER",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "{{ $json.query }}",
+        "options": {}
+      },
+      "id": "ca92c19e-ed40-40b0-be41-1bde4c4f8e4a",
+      "name": "MySQL",
+      "type": "n8n-nodes-base.mySql",
+      "typeVersion": 2.4,
+      "position": [
+        2460,
+        -140
+      ],
+      "credentials": {
+        "mySql": {
+          "id": "cuFBosLOeXuiIPN2",
+          "name": "MySQL account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "759fd7cb-72ab-40a4-9047-a3f02cf3f522",
+              "name": "lat",
+              "value": "={{ $json.lat }}",
+              "type": "number"
+            },
+            {
+              "id": "e38d7c1d-055b-49e7-8045-f914ab0fa8cf",
+              "name": "lon",
+              "value": "={{ $json.lon }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "09f519f8-bc79-4ab9-a4ea-4fc78fbbcd7a",
+      "name": "Param To Query DB",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1860,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "cb402d75-713d-4d4a-a9a9-80ee6713723f",
+      "name": "GET Address",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2700,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "locationSelection": "coordinates",
+        "latitude": "={{ $json.latitude }}",
+        "longitude": "={{ $json.longitude }}",
+        "language": "en"
+      },
+      "id": "d682c1c5-e61c-42dc-817f-c87a3612b312",
+      "name": "OpenWeatherMap",
+      "type": "n8n-nodes-base.openWeatherMap",
+      "typeVersion": 1,
+      "position": [
+        760,
+        80
+      ],
+      "credentials": {
+        "openWeatherMapApi": {
+          "id": "ZbE4hQWCyKccM0MQ",
+          "name": "OpenWeatherMap account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "67e6ac53-a247-4d64-923f-f8e5ad76a78b",
+              "leftValue": "={{ $json.wind.speed }}",
+              "rightValue": 15,
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              }
+            },
+            {
+              "id": "fced003c-419a-42ad-8167-8c75e63e8a07",
+              "leftValue": "={{ $json.weather }}",
+              "rightValue": "={\"Cyclone\", \"Tropical Storm\", \"Hurricane\"}",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "id": "7bec3427-9d1c-4e09-b342-b9e5c388715c",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1180,
+        80
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7f069f08-15a9-45a5-a355-7c81e16e3f3d",
+              "name": "wind.speed",
+              "value": "={{ $json.wind.speed }}",
+              "type": "number"
+            },
+            {
+              "id": "9b6dbda4-6e84-44b3-a470-763bb9471b1a",
+              "name": "weather",
+              "value": "={{ $json.weather[0].main }}",
+              "type": "string"
+            },
+            {
+              "id": "8d51fc8d-770d-4b05-a6d2-ad3467581570",
+              "name": "coord.lon",
+              "value": "={{ $json.coord.lon }}",
+              "type": "number"
+            },
+            {
+              "id": "b22d0da6-979f-4dfb-ba9d-a7bf32ce9680",
+              "name": "coord.lat",
+              "value": "={{ $json.coord.lat }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "450c4d29-36b8-4b46-9c01-e20406e6fea2",
+      "name": "GET",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        980,
+        80
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const bounds = {\n    minLat: 8.179,\n    maxLat: 23.392,\n    minLon: 102.144,\n    maxLon: 109.464,\n};\n\n// Tọa độ tâm Việt Nam (có thể chọn một điểm đại diện, ví dụ: Hà Nội)\nconst vietnamLat = 15.0;\nconst vietnamLon = 108.0;\n\n// Tọa độ của cơn bão\nconst cycloneLat = $json.coord.lat; \nconst cycloneLon = $json.coord.lon; \n\n// Hàm tính khoảng cách Haversine\nfunction haversine(lat1, lon1, lat2, lon2) {\n    const R = 6371; // Bán kính Trái Đất (km)\n    const toRad = (value) => (value * Math.PI) / 180; // Chuyển đổi độ sang radian\n\n    const dLat = toRad(lat2 - lat1);\n    const dLon = toRad(lon2 - lon1);\n    const a =\n        Math.sin(dLat / 2) * Math.sin(dLat / 2) +\n        Math.cos(toRad(lat1)) *\n            Math.cos(toRad(lat2)) *\n            Math.sin(dLon / 2) *\n            Math.sin(dLon / 2);\n    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));\n    return R * c; // Khoảng cách (km)\n}\n\n// Tính khoảng cách giữa cơn bão và Việt Nam\nconst distance = haversine(vietnamLat, vietnamLon, cycloneLat, cycloneLon);\n\n// Kiểm tra khoảng cách và trả về một đối tượng duy nhất\nif (distance <= 100) {\n    return { isCloseToVietnam: true, distance: distance, lat: cycloneLat, lon:cycloneLon };\n} else {\n    return { isCloseToVietnam: false, distance: distance, lat: cycloneLat, lon:cycloneLon};\n}\n"
+      },
+      "id": "746af6ce-01b8-4c52-9651-029cec119152",
+      "name": "Check Position Flood",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1400,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Giới hạn tọa độ Biển Đông\nconst latMin = 50;\nconst latMax = 60;  // Vĩ độ từ 0° đến 25°N\nconst lonMin = 160;\nconst lonMax = 175;  // Kinh độ từ 100°E đến 122°E\n\n// Bước nhảy (tính bằng độ, tương đương ~50 km)\nconst latStep = 0.45;  // Bước nhảy vĩ độ\nconst lonStep = 0.52;  // Bước nhảy kinh độ\n\n// Tạo danh sách tọa độ\nconst coordinates = [];\nlet lat = latMin;\n\nwhile (lat <= latMax) {\n    let lon = lonMin;\n    while (lon <= lonMax) {\n        coordinates.push({\n            latitude: parseFloat(lat.toFixed(2)),  // Làm tròn đến 2 chữ số thập phân\n            longitude: parseFloat(lon.toFixed(2)), // Làm tròn đến 2 chữ số thập phân\n        });\n        lon += lonStep;\n    }\n    lat += latStep;\n}\n\n// Trả danh sách tọa độ\nreturn coordinates;\n"
+      },
+      "id": "99d0e7b7-a539-417a-9240-d8384739a1be",
+      "name": "Code",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "77dd5cbd-427a-4f2b-99af-f007f0adb634",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        520,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "RaRgg5k26imntdj9",
+          "mode": "list",
+          "cachedResultName": "Send SMS"
+        },
+        "options": {}
+      },
+      "id": "ffbf9aca-33ad-435e-acce-ccf0c6345f91",
+      "name": "Execute Workflow",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.1,
+      "position": [
+        2940,
+        -140
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "c286ef72-1209-46d8-be37-521ed3ec04d6",
+      "name": "Execute Workflow Trigger",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [
+        20,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Dữ liệu từ JSON Input của node trước\nconst stormData = {\n    storm_lat: $json.lat,\n    storm_lon: $json.lon\n};\n\n// Chuẩn bị truy vấn SQL với tham số từ JSON\nconst sqlQuery = `\n    SELECT \n        id, \n        name, \n        latitude, \n        longitude,\n        (\n            6371 * 2 * ATAN2(\n                SQRT(\n                    SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) * SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) +\n                    COS(RADIANS(${stormData.storm_lat})) * COS(RADIANS(latitude)) *\n                    SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2) * SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2)\n                ),\n                SQRT(\n                    1 - (\n                        SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) * SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) +\n                        COS(RADIANS(${stormData.storm_lat})) * COS(RADIANS(latitude)) *\n                        SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2) * SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2)\n                    )\n                )\n            )\n        ) AS distance\n    FROM \n        USER\n    WHERE \n        (\n            6371 * 2 * ATAN2(\n                SQRT(\n                    SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) * SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) +\n                    COS(RADIANS(${stormData.storm_lat})) * COS(RADIANS(latitude)) *\n                    SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2) * SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2)\n                ),\n                SQRT(\n                    1 - (\n                        SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) * SIN(RADIANS(latitude - ${stormData.storm_lat}) / 2) +\n                        COS(RADIANS(${stormData.storm_lat})) * COS(RADIANS(latitude)) *\n                        SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2) * SIN(RADIANS(longitude - ${stormData.storm_lon}) / 2)\n                    )\n                )\n            )\n        ) <= 50; -- Bán kính 50km\n`;\n\n// Trả về một đối tượng đơn lẻ\nreturn {\n    query: sqlQuery\n};\n"
+      },
+      "id": "2cd89aa4-2437-4818-b12f-a35233e5c015",
+      "name": "Code1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2120,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "aa2257ed-46d4-48d7-946e-e2edce2a355e",
+              "leftValue": "={{ $json.isCloseToVietnam }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "88b96be4-cba0-4885-8d37-70540020903f",
+      "name": "If1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1600,
+        60
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "c5eac946-3822-438d-bbbf-45c63fe4769b",
+      "name": "No Operation, do nothing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1860,
+        80
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Param To Query DB": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MySQL": {
+      "main": [
+        [
+          {
+            "node": "GET Address",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenWeatherMap": {
+      "main": [
+        [
+          {
+            "node": "GET",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "OpenWeatherMap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Check Position Flood",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Position Flood": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET Address": {
+      "main": [
+        [
+          {
+            "node": "Execute Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Workflow Trigger": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "MySQL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Param To Query DB",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "RaRgg5k26imntdj9"
+  },
+  "versionId": "b942a8c7-abfc-44db-b668-3b550cf3ddbe",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"
+  },
+  "id": "ttsbko7HYox6v88o",
+  "tags": []
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Disaster Map",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "cd788ead-9040-4b20-81ae-3ccac7664acb",
+      "name": "Execute Workflow Trigger",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [
+        620,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "{{ $json.sqlQuery }}",
+        "options": {}
+      },
+      "id": "0764d3c8-c0ce-437c-a9e6-292a07230d92",
+      "name": "MySQL",
+      "type": "n8n-nodes-base.mySql",
+      "typeVersion": 2.4,
+      "position": [
+        1160,
+        240
+      ],
+      "credentials": {
+        "mySql": {
+          "id": "FGtlSSwodkl40cLA",
+          "name": "MySQL account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Input parameters (if needed)\nconst query = `\n    SELECT * \n    FROM KHUVUCTHIENTAI\n    WHERE TrangThai = 1;\n`;\n\n// Return the query as output for the MySQL node\nreturn [\n    {\n        json: {\n            sqlQuery: query,\n        },\n    },\n];\n"
+      },
+      "id": "9a69b7a8-7476-47ea-b39a-1e69d92651ac",
+      "name": "Code",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        920,
+        240
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "d0dd9c77-1508-46e8-825f-f9a230d1a8ef",
+      "name": "No Operation, do nothing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1380,
+        240
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Execute Workflow Trigger": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "MySQL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MySQL": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3b9b3f1a-2bb9-4cc2-8e9e-7fb50cfbe1aa",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "167ac20ff2778f6847ddb68c79a5a882fdda1af053e54c234371a7629e6d48eb"
+  },
+  "id": "e5P73MNg0eBbxDJq",
+  "tags": []
+}
