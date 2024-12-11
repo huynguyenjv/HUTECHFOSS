@@ -1,0 +1,102 @@
+entity ChiTietDieuPhoi {
+  phieuDieuPhoiId Integer,
+  nhuYeuPhamId Integer,
+  soLuong Integer,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity LoaiNguoiNhan {
+  tenLoai String required unique,
+  moTa String,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity LoaiNhuYeuPham {
+  tenLoai String required unique,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity LoaiThienTai {
+  tenLoaiThienTai String required unique,
+  moTa String,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity NguoiNhan {
+  tenNguoiNhan String required,
+  soDienThoai String,
+  email String,
+  diaChi String,
+  vungId Integer,
+  soNguoiNhan Integer,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+
+entity NhaCungCap {
+  tenNhaCungCap String required unique,
+  soDienThoai String,
+  email String,
+  diaChi String,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity NhuYeuPham {
+  tenNhuYeuPham String required,
+  donViTinh String,
+  loaiNhuYeuPhamId Integer,
+  mucCanhBao Integer,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity PhieuDieuPhoi {
+  nhaCungCapId Integer,
+  nguoiNhanId Integer,
+  tinhNguyenVienId Integer,
+  trangThaiId Integer,
+  thoiGianDen ZonedDateTime,
+  thoiGianCho ZonedDateTime,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity TinhNguyenVien {
+  tenTinhNguyenVien String required unique,
+  soDienThoai String,
+  diaChi String,
+  trangThaiId Integer,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity TrangThai {
+  tenTrangThai String required unique,
+  moTa String,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+entity Vung {
+  tenVung String required unique,
+  lat BigDecimal,
+  lng BigDecimal,
+  loaiThienTaiId Integer,
+  soDan Integer,
+  createdAt ZonedDateTime,
+  updatedAt ZonedDateTime
+}
+
+
+// DTO and Service
+dto * with mapstruct
+service * with serviceClass
+
+// Pagination
+paginate ChiTietDieuPhoi, LoaiNguoiNhan, LoaiNhuYeuPham, LoaiThienTai, NguoiNhan, NhaCungCap, NhuYeuPham, PhieuDieuPhoi, TinhNguyenVien, TrangThai, Vung with pagination

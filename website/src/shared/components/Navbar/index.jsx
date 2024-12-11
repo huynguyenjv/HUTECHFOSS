@@ -25,7 +25,7 @@ export default function Navbar() {
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
                     onClick={() => navigate("/ban-do-thien-tai")}
                 >
-                    Tra Cứu
+                    Bản Đồ Thiên Tai
                 </button>
                 <button
                     onClick={() => navigate("/theo-doi-bao")}
@@ -37,13 +37,13 @@ export default function Navbar() {
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
                     onClick={() => navigate("/trung-tam-cuu-tro")}
                 >
-                    Trung Tâm Cứu Trợ
+                    Trung Tâm CHCN
                 </button>
                 <button
                     className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]"
-                    onClick={() => navigate("/dang-ky-cuu-tro")}
+                    onClick={() => navigate("/vrelief-AI")}
                 >
-                    Đăng Ký Cứu Trợ
+                    V-RELIEF
                 </button>
                 <button className="flex items-center gap-[5px] cursor-pointer hover:text-[#3B9DF8]">Khác</button>
             </div>

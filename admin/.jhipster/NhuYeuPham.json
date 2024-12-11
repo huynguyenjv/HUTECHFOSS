@@ -1,0 +1,39 @@
+{
+  "annotations": {
+    "changelogDate": "20241209160902"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "tenNhuYeuPham",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "donViTinh",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "loaiNhuYeuPhamId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "mucCanhBao",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "NhuYeuPham",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,29 @@
+{
+  "adminApp": {
+    "tinhNguyenVien": {
+      "home": {
+        "title": "Tinh Nguyen Viens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tinh Nguyen Vien",
+        "createOrEditLabel": "Create or edit a Tinh Nguyen Vien",
+        "notFound": "No Tinh Nguyen Viens found"
+      },
+      "created": "A new Tinh Nguyen Vien is created with identifier {{ param }}",
+      "updated": "A Tinh Nguyen Vien is updated with identifier {{ param }}",
+      "deleted": "A Tinh Nguyen Vien is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tinh Nguyen Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Nguyen Vien"
+      },
+      "id": "ID",
+      "tenTinhNguyenVien": "Ten Tinh Nguyen Vien",
+      "soDienThoai": "So Dien Thoai",
+      "diaChi": "Dia Chi",
+      "trangThaiId": "Trang Thai Id",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

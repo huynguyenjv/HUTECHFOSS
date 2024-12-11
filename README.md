@@ -41,13 +41,6 @@
 
 <br/>
 
-<p align="justify">
-
-⚙️ This project used **SonarCloud** to analyze the code quality of the project. **Pulumi** for infrastructure as code (IaC). The badge below shows the quality of the code. Click on the badge to see the details.
-
-</p>
-
-<br/>
 
 <p align="center">
 	<a href="https://sonarcloud.io/summary/new_code?id=foxminchan_LawKnowledge" target="blank">
@@ -136,19 +129,16 @@ We used <b>Microservice Architecture</b> to build this project to make it easier
 
 <ul>
 	<li align="justify">
-		<b><a href="https://nx.dev/" target="_blank">Nx</a></b> - Nx is a set of extensible dev tools for monorepos.
-	</li>
-	<li align="justify">
 		<b><a href="https://nodejs.org/en/" target="_blank">Nodejs</a></b> - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 	</li>
 	<li align="justify">
-		<b><a href="https://www.npmjs.com/" target="_blank">pnpm</a></b> - Fast, disk space efficient package manager.
+		<b><a href="https://www.npmjs.com/" target="_blank">npm</a></b> - Fast, disk space efficient package manager.
 	</li>
 	<li align="justify">
 		<b><a href="https://www.python.org/" target="_blank">Python</a></b> - Python is a programming language that lets you work quickly and integrate systems more effectively.
 	</li>
 	<li align="justify">
-		<b><a href="https://python-poetry.org/" target="_blank">Poetry</a></b> - Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
+		<b><a href="https://python-poetry.org/" target="_blank">N8N</a></b> - Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
 	</li>
 	<li align="justify">
 		<b><a href="https://www.pulumi.com/" target="_blank">Pulumi</a></b> - Pulumi is a manage infrastructure, secrets, and configurations intuitively on any cloud.
@@ -161,27 +151,6 @@ We used <b>Microservice Architecture</b> to build this project to make it easier
 	</li>
 </ul>
 
-### Services
-
-<ul>
-	<li align="justify">
-		<b><a href="https://aws.amazon.com/" target="_blank">AWS</a></b> - An Amazon Web Services account is required to deploy the infrastructure.
-	</li>
-	<li align="justify">
-		<b><a href="https://huggingface.co/" target="_blank">HuggingFace</a></b> - A HuggingFace account is required to download and upload the dataset and model.
-	</li>
-</ul>
-
-## 😄 HuggingFace Resources
-
-<p align="justify">
-
-You can download the dataset from the following link:
-
-- [Law Knowledge Data](https://huggingface.co/datasets/foxminchan/law-knowledge): The dataset from [Pháp điển](https://phapdien.moj.gov.vn/) and [Văn bản pháp luật](https://vbpl.vn/).
-- [Law Knowledge Model](https://huggingface.co/foxminchan/law-knowledge): A fine-tuned model from [PhoBERT](https://huggingface.co/vinai/phobert-base-v2).
-
-</p>
 
 ## 🧑‍💻 Setup
 
@@ -205,127 +174,12 @@ For the website, you can run the following command:
 npm run dev
 ```
 
-For the API, you can run the following command:
-
-```bash
-# For the API Gateway
-npx nx serve api-gateway --prod
-
-# For the Auth Service
-npx nx serve auth-svc --prod
-
-# For the Law Service
-npx nx serve law-svc --prod
-
-# For the Search Service, navigate to the search-svc directory
-npx nx build search-svc && cd apps/api/search-svc/search-svc && python main.py
-
-# For the Chat Service, navigate to the chat-svc directory
-npx nx build chat-svc && cd apps/api/chat-svc/chat-svc && python main.py
-```
-
-To traning the model, you can run the following command:
-
-```bash
-npx nx build bert && cd apps/nlp/bert/bert && python main.py
-```
-
-To set up the infrastructure, you can run the following command:
-
-```bash
-npx nx up pulumi
-```
-
 > [!IMPORTANT]
 >
 > <p align="justify">
 > If you want to run with Nx, make sure you have installed `poetry` globally. Python version must be `>=3.9.1 <=3.12`.
 > </p>
 
-## 🧪 Testing
-
-For the website, you can run the following command:
-
-```bash
-npx nx test website-e2e
-```
-
-For the API, you can run the following command:
-
-```bash
-# For the Auth Service
-npx nx test auth-svc-e2e
-
-# For the Law Service
-npx nx test law-svc-e2e
-
-# For the Search Service
-npx nx test search-svc-e2e
-
-# For the Chat Service
-npx nx test chat-svc
-```
-
-To test the model, you can run the following command:
-
-```bash
-npx nx test bert
-```
-
-## 🧩 Other
-
-To run the tooling for processing the dataset, you can run the following command:
-
-```bash
-npx nx build processor && cd apps/nlp/processor/processor && python main.py
-```
-
-For running documentation, you can run the following command:
-
-```bash
-npx nx serve docs
-```
-
-For running the Diagram as Code, you can run the following command:
-
-```bash
-npx nx build dac && cd assets/dac/dac && python main.py
-```
-
-Some useful scripts:
-
-```bash
-# Navigate to the scripts directory
-cd tools/scripts && ls
-
-# + scripts
-# +-- build.sh --> Build the project
-# +-- clean.sh --> Clean the docker image
-# +-- init.sh --> Initialize the project
-# +-- prepare.sh --> Prepare the project
-# +-- start.sh --> Start the project
-# +-- start-o11y.sh --> Start the observability stack
-# +-- stop-o11y.sh --> Stop the observability stack
-
-# Run the script
-./<script-name>
-````
-
-# Dependency Graph
-
-You can see the dependency graph of the project by running the following command:
-
-```bash
-npx nx dep-graph
-```
-
-Here is the dependency graph of the project:
-
-<img loading="lazy" src="./assets/images/dep-graph.png" alt="Dependency Graph" width="100%">
-
-# CI/CD
-
-<img loading="lazy" src="./assets/images/cicd.svg" alt="CI/CD" width="100%">
 
 # Contributing
 
@@ -343,7 +197,7 @@ Read through our [contributing guidelines](.github/CONTRIBUTING.md) to learn abo
 
 <p align="justify">
 
-Want to report a bug, contribute some code, or improve the documentation? Excellent! Read up on our guidelines for [contributing](.github/CONTRIBUTING.md) and then check out one of our issues labeled as <kbd>[help wanted](https://github.com/foxminchan/LawKnowledge/labels/help%20wanted)</kbd> or <kbd>[good first issue](https://github.com/foxminchan/LawKnowledge/labels/good%20first%20issue)</kbd>.
+Want to report a bug, contribute some code, or improve the documentation? Excellent! Read up on our guidelines for [contributing](.github/CONTRIBUTING.md) and then check out one of our issues labeled as <kbd>[help wanted](https://github.com/huynguyenjv/V-RELIEF/labels/help%20wanted)</kbd> or <kbd>[good first issue](https://github.com/huynguyenjv/V-RELIEF/labels/good%20first%20issue)</kbd>.
 
 </p>
 

@@ -12,10 +12,24 @@
   "dependencies": {
     "@botpress/webchat": "^2.4.0-beta.1",
     "@botpress/webchat-generator": "^0.2.15",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@goongmaps/goong-map-react": "^1.1.2",
+    "@loadable/component": "^5.16.4",
+    "@mui/material": "^6.1.10",
+    "antd": "^5.22.3",
+    "aos": "^2.3.4",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.468.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.0.2",
+    "react-toastify": "^10.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

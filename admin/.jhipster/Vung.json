@@ -1,0 +1,43 @@
+{
+  "annotations": {
+    "changelogDate": "20241209160906"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "tenVung",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "lat",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "lng",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "loaiThienTaiId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "soDan",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "Vung",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
