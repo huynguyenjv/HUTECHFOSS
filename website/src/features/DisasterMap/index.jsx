@@ -2,16 +2,12 @@ import { useState, useEffect } from "react";
 import MapGL, { Marker } from "@goongmaps/goong-map-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarker, faMarker } from "@fortawesome/free-solid-svg-icons";
-
-// Ví dụ về dữ liệu địa điểm gặp thiên tai
-const disasterLocations = [
-    { id: 1, name: "Quận 1, TP.HCM", lat: 10.7769, lng: 106.7009 },
-    { id: 2, name: "Quận 2, TP.HCM", lat: 10.8011, lng: 106.6938 },
-    { id: 3, name: "Quận 3, TP.HCM", lat: 10.7761, lng: 106.6961 },
-    // Thêm các địa điểm khác vào đây
-];
+import { useWebhookResponse } from "../../hook/usePageTracker";
 
 const DisasterMap = () => {
+    const response = useWebhookResponse(); // Dữ liệu từ webhook
+    const [disasterLocations, setDisasterLocations] = useState([]); // Danh sách địa điểm
+    const [filteredLocations, setFilteredLocations] = useState([]); // Danh sách lọc theo tìm kiếm
     const [viewport, setViewport] = useState({
         latitude: 10.7769,
         longitude: 106.7009,
@@ -19,24 +15,32 @@ const DisasterMap = () => {
     });
 
     const [selectedLocation, setSelectedLocation] = useState(null);
-
     const [searchTerm, setSearchTerm] = useState(""); // Từ khóa tìm kiếm
-    const [filteredLocations, setFilteredLocations] = useState(disasterLocations);
 
+    // Đồng bộ dữ liệu từ webhook vào `disasterLocations`
     useEffect(() => {
-        // Lọc danh sách địa điểm khi người dùng nhập vào ô tìm kiếm
+        if (response && Array.isArray(response)) {
+            setDisasterLocations(response);
+            setFilteredLocations(response); // Khởi tạo danh sách lọc ban đầu
+        }
+    }, [response]);
+
+    // Lọc danh sách địa điểm theo từ khóa tìm kiếm
+    useEffect(() => {
         setFilteredLocations(
-            disasterLocations.filter((location) => location.name.toLowerCase().includes(searchTerm.toLowerCase())),
+            disasterLocations.filter((location) =>
+                location.TenKhuVuc?.toLowerCase().includes(searchTerm.toLowerCase()),
+            ),
         );
-    }, [searchTerm]);
+    }, [searchTerm, disasterLocations]);
 
     // Handle click vào địa điểm trong danh sách
     const handleLocationClick = (location) => {
         setSelectedLocation(location);
         setViewport({
             ...viewport,
-            latitude: location.lat,
-            longitude: location.lng,
+            latitude: location.ViDo,
+            longitude: location.KinhDo,
             zoom: 14, // Zoom vào địa điểm khi click
         });
     };
@@ -63,10 +67,13 @@ const DisasterMap = () => {
                                 className="p-3 mb-2 bg-white rounded-lg cursor-pointer hover:bg-gray-300"
                                 onClick={() => handleLocationClick(location)}
                             >
-                                {location.name}
+                                <div className="font-bold">{location.TenKhuVuc}</div>
+                                <div className="text-sm text-gray-500">
+                                    <FontAwesomeIcon icon={faMarker} className="text-red-500" /> {location.DiaChi}
+                                </div>
                                 <div className="mt-2 text-sm text-gray-500">
-                                    <FontAwesomeIcon icon={faMapMarker} className="text-red-500" /> {location.lat},{" "}
-                                    {location.lng}
+                                    <FontAwesomeIcon icon={faMapMarker} className="text-red-500" /> {location.KinhDo},{" "}
+                                    {location.ViDo}
                                 </div>
                             </li>
                         ))}
@@ -86,8 +93,13 @@ const DisasterMap = () => {
                     onViewportChange={(nextViewport) => setViewport(nextViewport)}
                 >
                     {/* Marker cho tất cả các địa điểm gặp thiên tai */}
-                    {disasterLocations.map((location) => (
-                        <Marker key={location.id} latitude={location.lat} longitude={location.lng} draggable={false}>
+                    {filteredLocations.map((location) => (
+                        <Marker
+                            key={location.id}
+                            latitude={location.ViDo}
+                            longitude={location.KinhDo}
+                            draggable={false}
+                        >
                             <div className="text-2xl text-red-600">📍</div>
                         </Marker>
                     ))}
