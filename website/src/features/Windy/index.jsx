@@ -50,7 +50,12 @@ export default function Windy() {
 
     return (
         <div>
-            {!coords.lat && <p>Đang lấy vị trí...</p>}
+            {!coords.lat && (
+                <div className="flex flex-col items-center justify-center h-screen bg-blue-50">
+                    <div className="w-16 h-16 border-t-4 border-blue-500 rounded-full animate-spin border-opacity-70"></div>
+                    <p className="mt-5 text-xl font-semibold text-blue-700">Đang lấy vị trí...</p>
+                </div>
+            )}
             <div id="windy" style={{ width: "100%", height: "1000px" }} />
         </div>
     );

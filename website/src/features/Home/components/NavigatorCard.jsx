@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import Lottie from "lottie-react";
+import { useNavigate } from "react-router-dom";
 import { Button, Card, CardActions, CardContent, CardHeader } from "@mui/material";
 
 export default function NavigatorCard({ item }) {
+    const navigate = useNavigate();
     NavigatorCard.propTypes = {
         item: PropTypes.shape({
             title: PropTypes.string.isRequired,
@@ -22,7 +24,11 @@ export default function NavigatorCard({ item }) {
             </CardContent>
             <CardActions className="flex justify-center ">
                 <div className="flex justify-center">
-                    <Button className="!bg-indigo-600 !text-white hover:!bg-indigo-500" type="primary" href={item.link}>
+                    <Button
+                        className="!bg-indigo-600 !text-white hover:!bg-indigo-500"
+                        type="primary"
+                        onClick={() => navigate(item.link)}
+                    >
                         Truy Cập
                     </Button>
                 </div>
