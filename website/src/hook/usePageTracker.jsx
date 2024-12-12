@@ -36,7 +36,7 @@ const PageTracker = ({ children }) => {
         setError(null);
 
         // Gửi request
-        fetch("http://localhost:5678/webhook/615527cc-6031-4506-8a60-721830ee3c80", {
+        fetch("https://qaa.app.n8n.cloud/webhook/615527cc-6031-4506-8a60-721830ee3c80", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
